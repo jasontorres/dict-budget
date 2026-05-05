@@ -419,8 +419,8 @@ export default function Future() {
             data-anim="fade-up"
             style={{ ['--delay' as string]: '350ms', borderColor: 'var(--ink)' }}
           >
-            <article className="promise">
-              <p className="num">01 · ₱5.0B</p>
+            <Link to="/programs?q=internet" className="promise promise-link">
+              <p className="num">01 · ₱5.0B ↗</p>
               <h3>Free Public Internet</h3>
               <p>
                 Connectivity at public places — schools, plazas, transport terminals — paid for through annual
@@ -430,9 +430,9 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">27%</span>
               </div>
-            </article>
-            <article className="promise">
-              <p className="num">02 · ₱4.5B</p>
+            </Link>
+            <Link to="/programs?q=Network" className="promise promise-link">
+              <p className="num">02 · ₱4.5B ↗</p>
               <h3>Government Networks &amp; Cloud</h3>
               <p>
                 The shared connectivity backbone, data-centre operations, and the gov-cloud platform that hosts
@@ -442,9 +442,9 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">25%</span>
               </div>
-            </article>
-            <article className="promise">
-              <p className="num">03 · ₱2.8B</p>
+            </Link>
+            <Link to="/programs?q=Digital+Government" className="promise promise-link">
+              <p className="num">03 · ₱2.8B ↗</p>
               <h3>Digital Government Services</h3>
               <p>
                 e-Gov apps, the National ID integration layer, eGovPH, and the long-running national broadband
@@ -454,9 +454,9 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">15%</span>
               </div>
-            </article>
-            <article className="promise">
-              <p className="num">04 · ₱1.4B</p>
+            </Link>
+            <Link to="/programs?q=ICT" className="promise promise-link">
+              <p className="num">04 · ₱1.4B ↗</p>
               <h3>ICT Industry &amp; Talent</h3>
               <p>
                 Capability-building, startup grants, and digital-skills programmes that prepare the workforce
@@ -466,9 +466,9 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">8%</span>
               </div>
-            </article>
-            <article className="promise">
-              <p className="num">05 · ₱1.0B</p>
+            </Link>
+            <Link to="/programs?agency=37-004" className="promise promise-link">
+              <p className="num">05 · ₱1.0B ↗</p>
               <h3>Cybersecurity &amp; Cybercrime</h3>
               <p>
                 The CICC’s investigation centre, the National Cybersecurity Plan, and incident-response
@@ -478,9 +478,9 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">5%</span>
               </div>
-            </article>
-            <article className="promise">
-              <p className="num">06 · ₱1.2B</p>
+            </Link>
+            <Link to="/programs?agency=37-003" className="promise promise-link">
+              <p className="num">06 · ₱1.2B ↗</p>
               <h3>Privacy &amp; Telecom Regulation</h3>
               <p>
                 The two independent commissions — NPC and NTC — that protect citizens and license the
@@ -490,7 +490,7 @@ export default function Future() {
                 <span className="l">share of FY26</span>
                 <span className="v">7%</span>
               </div>
-            </article>
+            </Link>
           </div>
         </div>
       </section>
@@ -528,6 +528,20 @@ export default function Future() {
           >
             EACH SQUARE REPRESENTS A CLUSTER OF BENEFICIARY SITES (ILLUSTRATIVE). LIT SQUARES INDICATE THE
             PORTION ACTIVE UNDER THE FY 2026 SUBSCRIPTION ENVELOPE. SOURCE: PROGRAM CODE 320200200001000.
+          </p>
+
+          <p
+            className="dataline scene-link-row"
+            data-anim="fade-up"
+            style={{ ['--delay' as string]: '850ms' }}
+          >
+            <Link to="/programs?q=internet" className="scene-link-inline" style={{ color: '#fff' }}>
+              ↗ Free Public Internet across the years
+            </Link>
+            <span className="scene-link-sep" style={{ color: 'rgba(244,240,232,0.5)' }}>·</span>
+            <Link to="/data?q=internet" className="scene-link-inline" style={{ color: '#fff' }}>
+              ↗ Internet line items in the raw data
+            </Link>
           </p>
         </div>
       </section>
@@ -589,6 +603,16 @@ export default function Future() {
           <p className="dataline" data-anim="fade-up" style={{ ['--delay' as string]: '500ms' }}>
             CAPITAL OUTLAYS — ALL DICT BUREAUS · APPROPRIATIONS, NOT YET OBLIGATIONS · OBLIGATION RATES
             PUBLISHED SEPARATELY BY DBM
+          </p>
+
+          <p
+            className="dataline scene-link-row"
+            data-anim="fade-up"
+            style={{ ['--delay' as string]: '650ms' }}
+          >
+            <Link to="/by-year" className="scene-link-inline">
+              ↗ Capital outlays in the by-year breakdown
+            </Link>
           </p>
         </div>
       </section>
@@ -653,6 +677,20 @@ export default function Future() {
             NATIONAL PRIVACY COMMISSION — TOTAL APPROPRIATION · 2024 INCLUDES A ONE-OFF ₱100M
             ENFORCEMENT-CAPACITY UPLIFT WHICH WAS PARTIALLY ROLLED BACK IN 2025.
           </p>
+
+          <p
+            className="dataline scene-link-row"
+            data-anim="fade-up"
+            style={{ ['--delay' as string]: '650ms' }}
+          >
+            <Link to="/programs?agency=37-003" className="scene-link-inline">
+              ↗ NPC programs in the portal
+            </Link>
+            <span className="scene-link-sep">·</span>
+            <Link to="/objects?bureau=37-003" className="scene-link-inline">
+              ↗ Every NPC line item
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -709,6 +747,20 @@ export default function Future() {
               <p className="l">7-year multiple</p>
             </div>
           </div>
+
+          <p
+            className="dataline scene-link-row"
+            data-anim="fade-up"
+            style={{ ['--delay' as string]: '500ms' }}
+          >
+            <Link to="/programs?agency=37-004" className="scene-link-inline">
+              ↗ CICC programs in the portal
+            </Link>
+            <span className="scene-link-sep">·</span>
+            <Link to="/objects?bureau=37-004" className="scene-link-inline">
+              ↗ Every CICC line item
+            </Link>
+          </p>
         </div>
       </section>
 

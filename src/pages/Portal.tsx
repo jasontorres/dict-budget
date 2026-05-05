@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, Fragment } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { loadDictData, YEARS } from '../lib/dict-data';
 import * as fmt from '../lib/format';
 import { Eyebrow, SectionHead, Spark } from '../components/shared';
@@ -656,8 +656,17 @@ function ProgramsView({
   year: number;
   setYear: (y: number) => void;
 }) {
-  const [q, setQ] = useState('');
-  const [agency, setAgency] = useState('all');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [q, setQ] = useState(() => searchParams.get('q') || '');
+  const [agency, setAgency] = useState(() => searchParams.get('agency') || 'all');
+
+  // Reflect filter state back into the URL so the page is shareable.
+  useEffect(() => {
+    const next = new URLSearchParams();
+    if (q) next.set('q', q);
+    if (agency !== 'all') next.set('agency', agency);
+    setSearchParams(next, { replace: true });
+  }, [q, agency, setSearchParams]);
 
   const rows = useMemo(() => {
     return data.fpapFamilies
@@ -1063,13 +1072,22 @@ function ObjectsView({
   year: number;
   setYear: (y: number) => void;
 }) {
-  const [q, setQ] = useState('');
-  const [bureau, setBureau] = useState('all');
-  const [expense, setExpense] = useState('all');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [q, setQ] = useState(() => searchParams.get('q') || '');
+  const [bureau, setBureau] = useState(() => searchParams.get('bureau') || 'all');
+  const [expense, setExpense] = useState(() => searchParams.get('expense') || 'all');
   const [sortKey, setSortKey] = useState<'amount' | 'description' | 'code'>('amount');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [page, setPage] = useState(0);
   const [openId, setOpenId] = useState<string | null>(null);
+
+  useEffect(() => {
+    const next = new URLSearchParams();
+    if (q) next.set('q', q);
+    if (bureau !== 'all') next.set('bureau', bureau);
+    if (expense !== 'all') next.set('expense', expense);
+    setSearchParams(next, { replace: true });
+  }, [q, bureau, expense, setSearchParams]);
 
   const fpapById = useMemo(() => Object.fromEntries(data.fpaps.map((f) => [f.id, f])), [data]);
   const opUnitById = data.opUnitById;
@@ -1344,14 +1362,23 @@ function formatCell(col: ColumnDef, val: RawCell): string {
 }
 
 function DataBrowserView({ data }: { data: DictData }) {
-  const [q, setQ] = useState('');
-  const [bureau, setBureau] = useState('all');
-  const [expense, setExpense] = useState('all');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [q, setQ] = useState(() => searchParams.get('q') || '');
+  const [bureau, setBureau] = useState(() => searchParams.get('bureau') || 'all');
+  const [expense, setExpense] = useState(() => searchParams.get('expense') || 'all');
   const [sortKey, setSortKey] = useState<string>('total_amount_php');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [page, setPage] = useState(0);
   const [hidden, setHidden] = useState<Set<string>>(new Set(DEFAULT_HIDDEN_COLS));
   const [colsOpen, setColsOpen] = useState(false);
+
+  useEffect(() => {
+    const next = new URLSearchParams();
+    if (q) next.set('q', q);
+    if (bureau !== 'all') next.set('bureau', bureau);
+    if (expense !== 'all') next.set('expense', expense);
+    setSearchParams(next, { replace: true });
+  }, [q, bureau, expense, setSearchParams]);
 
   const columns = useMemo(() => buildColumns(YEARS), []);
 

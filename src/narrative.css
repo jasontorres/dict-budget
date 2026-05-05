@@ -798,3 +798,70 @@ img { max-width: 100%; display: block; }
   .funnel-row { grid-template-columns: 80px 1fr 80px; gap: 10px; }
   .piprail { display: none; }
 }
+
+/* ---------- Deep links from scrollytelling sections to portal filters ---------- */
+.scene-link,
+.scene-link-inline {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  transition: color .12s, opacity .12s;
+}
+.scene-link:hover,
+.scene-link-inline:hover {
+  opacity: 0.78;
+}
+.scene-link small {
+  display: block;
+  letter-spacing: 0.08em;
+}
+.scene-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  align-items: center;
+}
+.scene-link-inline {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.scene-link-sep { opacity: 0.4; padding: 0 4px; }
+
+/* Bureau-bar names linking to filtered programs */
+.bureau-bars .bn.scene-link {
+  border-bottom: none;
+  display: block;
+}
+.bureau-bars .bn.scene-link small { color: inherit; opacity: 0.6; }
+.bureau-bars .bn.scene-link:hover { color: var(--accent); opacity: 1; }
+
+/* Program cards as full-bleed link tiles */
+.pcard-link,
+.promise-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+  transition: background .15s, transform .15s, border-color .15s;
+}
+.pcard-link:hover {
+  background: rgba(184, 52, 31, 0.06);
+  border-color: var(--accent) !important;
+}
+.bg-paper-warm .pcard-link:hover,
+.bg-paper-deep .pcard-link:hover { background: rgba(184, 52, 31, 0.08); }
+.bg-ink .pcard-link:hover,
+.bg-accent .pcard-link:hover,
+.bg-gold .pcard-link:hover { background: rgba(255, 255, 255, 0.06); }
+.promise-link:hover {
+  background: rgba(184, 52, 31, 0.05);
+}
+.bg-slate .promise-link:hover { background: rgba(255, 255, 255, 0.05); }
+.pcard-link .num,
+.promise-link .num { transition: color .12s; }
+.pcard-link:hover .num,
+.promise-link:hover .num { color: var(--accent); opacity: 1; }

@@ -325,9 +325,9 @@ export default function Review() {
           </p>
 
           <div className="bureau-bars" data-anim="fade-up" style={{ ['--delay' as string]: '500ms' }}>
-            <div className="bn">
-              Office of the Secretary <small>OSEC · CORE</small>
-            </div>
+            <Link to="/programs?agency=37-001" className="bn scene-link">
+              Office of the Secretary <small>OSEC · CORE ↗</small>
+            </Link>
             <div className="br">
               <span className="bar-fill" style={{ width: '100%', background: 'var(--accent)' }}></span>
             </div>
@@ -335,9 +335,9 @@ export default function Review() {
               ₱16.4B <span className="delta pos">+129% since 2020</span>
             </div>
 
-            <div className="bn">
-              National Telecommunications Commission <small>NTC · REGULATOR</small>
-            </div>
+            <Link to="/programs?agency=37-002" className="bn scene-link">
+              National Telecommunications Commission <small>NTC · REGULATOR ↗</small>
+            </Link>
             <div className="br">
               <span className="bar-fill" style={{ width: '4.6%', background: '#c8b890' }}></span>
             </div>
@@ -345,9 +345,9 @@ export default function Review() {
               ₱755M <span className="delta neg">−81% since 2020</span>
             </div>
 
-            <div className="bn">
-              Cybercrime Investigation &amp; Coordination <small>CICC · NEW</small>
-            </div>
+            <Link to="/programs?agency=37-004" className="bn scene-link">
+              Cybercrime Investigation &amp; Coordination <small>CICC · NEW ↗</small>
+            </Link>
             <div className="br">
               <span className="bar-fill" style={{ width: '3.5%', background: '#98d68a' }}></span>
             </div>
@@ -355,9 +355,9 @@ export default function Review() {
               ₱579M <span className="delta pos">×51 since 2020</span>
             </div>
 
-            <div className="bn">
-              National Privacy Commission <small>NPC · NEW-ISH</small>
-            </div>
+            <Link to="/programs?agency=37-003" className="bn scene-link">
+              National Privacy Commission <small>NPC · NEW-ISH ↗</small>
+            </Link>
             <div className="br">
               <span className="bar-fill" style={{ width: '2.7%', background: '#d8c0a0' }}></span>
             </div>
@@ -469,6 +469,15 @@ export default function Review() {
               to 814 in 2026 — a 22% reduction. The same regulator now monitors more spectrum, more carriers,
               and a more crowded broadcast band with about a quarter of its former budget. The Senate did not
               hold a hearing on this between 2020 and 2026.
+            </p>
+            <p className="b" style={{ marginTop: 16 }}>
+              <Link to="/objects?bureau=37-002" className="scene-link-inline" style={{ color: '#fff' }}>
+                ↗ See every NTC line item
+              </Link>
+              <span style={{ opacity: 0.5, padding: '0 10px' }}>·</span>
+              <Link to="/programs?agency=37-002" className="scene-link-inline" style={{ color: '#fff' }}>
+                ↗ NTC programs
+              </Link>
             </p>
           </div>
         </div>
@@ -704,6 +713,15 @@ export default function Review() {
               five years and DICT will have spent more than ₱25 billion without owning a single kilometre of
               fibre.
             </p>
+            <p className="b" style={{ marginTop: 16 }}>
+              <Link to="/programs?q=internet" className="scene-link-inline" style={{ color: '#fff' }}>
+                ↗ Free Public Internet across the years
+              </Link>
+              <span style={{ opacity: 0.5, padding: '0 10px' }}>·</span>
+              <Link to="/data?q=internet" className="scene-link-inline" style={{ color: '#fff' }}>
+                ↗ Internet line items in the raw data
+              </Link>
+            </p>
           </div>
         </div>
       </section>
@@ -781,6 +799,20 @@ export default function Review() {
             CICC TOTAL APPROPRIATION, FY 2020 – 2026. THE 2025 SPIKE IS NOT REPEATED IN THE 2026 GAA. ANY
             MULTI-YEAR PLAN BUILT AGAINST THE SPIKE NOW HAS TO BE COMPRESSED OR DEFERRED.
           </p>
+
+          <p
+            className="dataline scene-link-row"
+            data-anim="fade-up"
+            style={{ ['--delay' as string]: '750ms' }}
+          >
+            <Link to="/programs?agency=37-004" className="scene-link-inline">
+              ↗ CICC programs in the portal
+            </Link>
+            <span className="scene-link-sep">·</span>
+            <Link to="/objects?bureau=37-004" className="scene-link-inline">
+              ↗ Every CICC line item
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -802,8 +834,8 @@ export default function Review() {
           </p>
 
           <div className="pcards" data-anim="fade-up" style={{ ['--delay' as string]: '350ms' }}>
-            <article className="pcard">
-              <p className="num">CODE 310100100002000 · OSEC</p>
+            <Link to="/data?q=Data+Center" className="pcard pcard-link">
+              <p className="num">CODE 310100100002000 · OSEC ↗</p>
               <h3 className="name">National Government Data Center Infrastructure Program</h3>
               <p className="body">
                 Last appears in FY 2022 with ₱432M; absent from 2024 onwards. The functions were folded into a
@@ -813,10 +845,10 @@ export default function Review() {
                 <span className="l">Last booked</span>
                 <span className="v">₱432M · 2022</span>
               </div>
-            </article>
+            </Link>
 
-            <article className="pcard">
-              <p className="num">CODE 310100100003000 · OSEC</p>
+            <Link to="/data?q=Common+Platform" className="pcard pcard-link">
+              <p className="num">CODE 310100100003000 · OSEC ↗</p>
               <h3 className="name">Government Common Platform &amp; Shared Services</h3>
               <p className="body">
                 Booked at ₱890M in 2021 to consolidate agency systems. By 2026 the line item no longer exists;
@@ -826,10 +858,10 @@ export default function Review() {
                 <span className="l">Last booked</span>
                 <span className="v">₱890M · 2021</span>
               </div>
-            </article>
+            </Link>
 
-            <article className="pcard">
-              <p className="num">CODE 310100200001000 · OSEC</p>
+            <Link to="/programs?q=Broadband" className="pcard pcard-link">
+              <p className="num">CODE 310100200001000 · OSEC ↗</p>
               <h3 className="name">National Broadband Plan — Phase I</h3>
               <p className="body">
                 Reached ₱2.1B in 2021. Renamed into multiple successor lines and an IBRD loan-financed track,
@@ -839,10 +871,10 @@ export default function Review() {
                 <span className="l">Last booked</span>
                 <span className="v">₱2.10B · 2021</span>
               </div>
-            </article>
+            </Link>
 
-            <article className="pcard">
-              <p className="num">CODE 310200100001000 · OSEC</p>
+            <Link to="/programs?q=ICT+Industry" className="pcard pcard-link">
+              <p className="num">CODE 310200100001000 · OSEC ↗</p>
               <h3 className="name">ICT Industry Promotion &amp; Capability Building</h3>
               <p className="body">
                 Steady at ₱60–80M through 2023, then drops to ₱9M in 2024 and disappears from the 2026 GAA
@@ -852,7 +884,7 @@ export default function Review() {
                 <span className="l">Last booked</span>
                 <span className="v">₱9M · 2024</span>
               </div>
-            </article>
+            </Link>
           </div>
 
           <p className="dataline" data-anim="fade-up" style={{ ['--delay' as string]: '600ms' }}>
@@ -905,53 +937,53 @@ export default function Review() {
           </h2>
 
           <div className="pcards" data-anim="fade-up" style={{ ['--delay' as string]: '250ms' }}>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">01 · NTC</p>
+            <Link to="/programs?agency=37-002" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">01 · NTC ↗</p>
               <h3 className="name">Will the regulator ever recover?</h3>
               <p className="body">
                 After six straight years below ₱1B, FY 2027 will say whether the 2020 cliff was permanent.
               </p>
-            </article>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">02 · CICC</p>
+            </Link>
+            <Link to="/programs?agency=37-004" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">02 · CICC ↗</p>
               <h3 className="name">Was the 2025 spike a fluke?</h3>
               <p className="body">
                 A 56% retreat in one year usually means a one-off project. We’ll look for the project name in
                 2025 disbursement reports.
               </p>
-            </article>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">03 · INTERNET</p>
+            </Link>
+            <Link to="/programs?q=internet" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">03 · INTERNET ↗</p>
               <h3 className="name">Free Public Internet — what gets bought?</h3>
               <p className="body">
                 A ₱5B annual line item should produce a public list of beneficiary sites. The latest published
                 list dates to 2023.
               </p>
-            </article>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">04 · CAPEX</p>
+            </Link>
+            <Link to="/by-year" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">04 · CAPEX ↗</p>
               <h3 className="name">Will the 2026 capital lift hold?</h3>
               <p className="body">
                 CO bounced back to ₱5.2B in 2026 after two years near zero. Watch obligation rates: a high
                 authorised CO that doesn’t obligate is the same as no CO at all.
               </p>
-            </article>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">05 · IBRD</p>
+            </Link>
+            <Link to="/data?q=loan" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">05 · IBRD ↗</p>
               <h3 className="name">The loan-financed broadband track.</h3>
               <p className="body">
                 Several DICT programs are now funded through a World Bank loan. This shifts capacity
                 off-balance-sheet and creates new repayment liabilities.
               </p>
-            </article>
-            <article className="pcard" style={{ borderColor: 'var(--ink)' }}>
-              <p className="num">06 · NPC</p>
+            </Link>
+            <Link to="/programs?agency=37-003" className="pcard pcard-link" style={{ borderColor: 'var(--ink)' }}>
+              <p className="num">06 · NPC ↗</p>
               <h3 className="name">Privacy Commission, doubled.</h3>
               <p className="body">
                 NPC’s budget jumped 96% in 2024 and held. Quiet, but consequential — and it’s the smallest
                 agency to grow without controversy.
               </p>
-            </article>
+            </Link>
           </div>
         </div>
       </section>
