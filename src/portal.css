@@ -814,3 +814,92 @@ html, body {
   opacity: 0.3;
   cursor: not-allowed;
 }
+
+/* ---------- CSV download buttons ---------- */
+.csv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid transparent;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  transition: color .12s, background .12s, border-color .12s;
+}
+.csv-btn:hover { color: var(--accent-deep); }
+.csv-btn:disabled {
+  color: var(--ink-mute);
+  cursor: not-allowed;
+}
+.csv-btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 11px;
+  line-height: 1;
+}
+.csv-btn-pill {
+  border-color: var(--ink);
+  color: var(--ink);
+  padding: 7px 12px 7px 8px;
+  background: var(--paper);
+}
+.csv-btn-pill:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+.csv-btn-pill:disabled {
+  border-color: var(--rule);
+  color: var(--ink-mute);
+  background: var(--paper);
+}
+
+/* In masthead-top: lay download link beside the compiled meta */
+.masthead-top .csv-btn-inline {
+  margin-right: 14px;
+}
+.masthead-meta-r {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+}
+.masthead-meta-sep {
+  margin: 0 10px;
+  color: var(--rule);
+}
+
+/* Hierarchy crumbs: download anchored to the right */
+.crumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.crumb-download {
+  margin-left: auto;
+  padding-left: 16px;
+}
+
+/* Objects toolbar summary: spacer pushes the download button to the right */
+.objects-summary {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.objects-summary-spacer { flex: 1 1 auto; }
+
+@media (max-width: 720px) {
+  .masthead-top { flex-wrap: wrap; }
+  .crumb-download { margin-left: 0; padding-left: 0; padding-top: 8px; flex-basis: 100%; }
+  .objects-summary-spacer { display: none; }
+}

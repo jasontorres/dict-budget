@@ -1,12 +1,70 @@
 import { useEffect, useMemo, useRef, useState, Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { loadDictData, YEARS } from '../lib/dict-data';
 import * as fmt from '../lib/format';
 import { Eyebrow, SectionHead, Spark } from '../components/shared';
 import SiteFooter from '../components/SiteFooter';
+import { downloadCsv, filterObjects, objectsToCsv } from '../lib/csv';
+import type { ObjectFilter } from '../lib/csv';
 import type { DictData, FPAP, ObjectItem, BaseEntity, MoverEntry } from '../lib/types';
 
 const FALLBACK_YEAR = 2026;
+
+const VIEW_BY_PATH: Record<string, View> = {
+  '/': 'hierarchy',
+  '/overview': 'hierarchy',
+  '/by-year': 'byyear',
+  '/programs': 'programs',
+  '/objects': 'objects',
+  '/methodology': 'methodology',
+};
+
+const PATH_BY_VIEW: Record<View, string> = {
+  hierarchy: '/overview',
+  byyear: '/by-year',
+  programs: '/programs',
+  objects: '/objects',
+  methodology: '/methodology',
+};
+
+type View = 'hierarchy' | 'byyear' | 'programs' | 'objects' | 'methodology';
+
+interface DownloadButtonProps {
+  data: DictData;
+  filter: ObjectFilter;
+  filename: string;
+  label?: string;
+  variant?: 'inline' | 'pill';
+  disabled?: boolean;
+}
+
+function DownloadCsvButton({
+  data,
+  filter,
+  filename,
+  label,
+  variant = 'inline',
+  disabled,
+}: DownloadButtonProps) {
+  const matched = useMemo(() => filterObjects(data, filter), [data, filter]);
+  const isDisabled = disabled || matched.length === 0;
+  const text = label != null ? label : `Download CSV · ${matched.length.toLocaleString()} rows`;
+  return (
+    <button
+      type="button"
+      className={`csv-btn csv-btn-${variant}`}
+      disabled={isDisabled}
+      onClick={() => {
+        if (isDisabled) return;
+        const csv = objectsToCsv(data, matched);
+        downloadCsv(filename, csv);
+      }}
+    >
+      <span className="csv-btn-arrow">↓</span>
+      <span>{text}</span>
+    </button>
+  );
+}
 
 function delta(curr: number, prev: number | null | undefined): number | null {
   if (!prev) return null;
@@ -316,6 +374,25 @@ function HierarchyView({
     else setPath(path.slice(0, idx + 1));
   }
 
+  // Build a CSV filter that matches the deepest entry in `path`,
+  // so a download from this branch only includes its line items.
+  const csvFilter: ObjectFilter = (() => {
+    const f: ObjectFilter = {};
+    for (const p of path) {
+      if (p.level === 'agency') f.agencyId = p.id;
+      else if (p.level === 'fpap') f.fpapId = p.id;
+      else if (p.level === 'opUnit') f.operatingUnitId = p.id;
+      else if (p.level === 'fund') f.fundId = p.id;
+    }
+    return f;
+  })();
+  const csvLabel =
+    path.length === 0 ? 'DICT (all bureaus)' : path[path.length - 1].label;
+  const csvFilename =
+    path.length === 0
+      ? 'dict-budget-fy2020-2026.csv'
+      : `dict-${path[path.length - 1].label.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}.csv`;
+
   return (
     <div>
       <div className="flex between items-center" style={{ marginBottom: 14 }}>
@@ -333,6 +410,15 @@ function HierarchyView({
         ))}
         <span className="sep">›</span>
         <span className="current">{levelTitle}</span>
+        <span className="crumb-download">
+          <DownloadCsvButton
+            data={data}
+            filter={csvFilter}
+            filename={csvFilename}
+            label={`Download line items · ${csvLabel}`}
+            variant="pill"
+          />
+        </span>
       </div>
 
       <table className="hier-table">
@@ -1080,6 +1166,18 @@ function ObjectsView({
         <span>
           {((filteredTotal / data.total(year)) * 100).toFixed(1)}% of FY {year} budget
         </span>
+        <span className="objects-summary-spacer" />
+        <DownloadCsvButton
+          data={data}
+          filter={{
+            agencyId: bureau !== 'all' ? bureau : undefined,
+            expenseClassCode: expense !== 'all' ? expense : undefined,
+            year,
+            query: q,
+          }}
+          filename={`dict-objects-fy${year}${bureau !== 'all' ? '-' + bureau : ''}${expense !== 'all' ? '-class' + expense : ''}${q ? '-q' : ''}.csv`}
+          variant="pill"
+        />
       </div>
 
       <div className="objects-table-wrap">
@@ -1183,12 +1281,12 @@ function ObjectsView({
 }
 
 /* ---------- Page shell ---------- */
-type View = 'hierarchy' | 'byyear' | 'programs' | 'objects' | 'methodology';
-
 export default function Portal() {
   const [data, setData] = useState<DictData | null>(null);
-  const [view, setView] = useState<View>('hierarchy');
   const [year, setYear] = useState(FALLBACK_YEAR);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const view: View = VIEW_BY_PATH[location.pathname] || 'hierarchy';
 
   useEffect(() => {
     loadDictData().then(setData);
@@ -1211,32 +1309,46 @@ export default function Portal() {
 
   const sevenYearTotal = YEARS.reduce((s, y) => s + data.total(y), 0);
 
+  function go(v: View) {
+    navigate(PATH_BY_VIEW[v]);
+  }
+
   return (
     <>
       <header className="masthead">
         <div className="masthead-inner">
           <div className="masthead-top">
             <span className="masthead-meta-l">DEPARTMENT OF ICT · FISCAL YEARS 2020 – 2026</span>
-            <span className="masthead-meta-r">COMPILED · GAA PHP {fmt.shortPhp(sevenYearTotal, 'B')}</span>
+            <span className="masthead-meta-r">
+              <DownloadCsvButton
+                data={data}
+                filter={{}}
+                filename="dict-budget-fy2020-2026.csv"
+                label="Download dataset · CSV"
+                variant="inline"
+              />
+              <span className="masthead-meta-sep">·</span>
+              COMPILED · GAA PHP {fmt.shortPhp(sevenYearTotal, 'B')}
+            </span>
           </div>
           <h1 className="masthead-title">
             The <span className="dict-mark-inline">DICT</span> Budget Portal
           </h1>
           <div className="masthead-nav-row">
             <nav className="view-tabs">
-              <button className={view === 'hierarchy' ? 'active' : ''} onClick={() => setView('hierarchy')}>
+              <button className={view === 'hierarchy' ? 'active' : ''} onClick={() => go('hierarchy')}>
                 Overview
               </button>
-              <button className={view === 'byyear' ? 'active' : ''} onClick={() => setView('byyear')}>
+              <button className={view === 'byyear' ? 'active' : ''} onClick={() => go('byyear')}>
                 By year
               </button>
-              <button className={view === 'programs' ? 'active' : ''} onClick={() => setView('programs')}>
+              <button className={view === 'programs' ? 'active' : ''} onClick={() => go('programs')}>
                 Programs
               </button>
-              <button className={view === 'objects' ? 'active' : ''} onClick={() => setView('objects')}>
+              <button className={view === 'objects' ? 'active' : ''} onClick={() => go('objects')}>
                 Objects
               </button>
-              <button className={view === 'methodology' ? 'active' : ''} onClick={() => setView('methodology')}>
+              <button className={view === 'methodology' ? 'active' : ''} onClick={() => go('methodology')}>
                 Methodology
               </button>
             </nav>
