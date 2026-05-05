@@ -1318,6 +1318,7 @@ function ObjectsView({
 export default function Portal() {
   const [data, setData] = useState<DictData | null>(null);
   const [year, setYear] = useState(FALLBACK_YEAR);
+  const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const view: View = VIEW_BY_PATH[location.pathname] || 'hierarchy';
@@ -1325,6 +1326,22 @@ export default function Portal() {
   useEffect(() => {
     loadDictData().then(setData);
   }, []);
+
+  // Close drawer on route change
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+  // Lock body scroll while drawer is open
+  useEffect(() => {
+    if (menuOpen) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [menuOpen]);
 
   if (!data) {
     return (
@@ -1364,6 +1381,18 @@ export default function Portal() {
               <span className="masthead-meta-sep">·</span>
               COMPILED · GAA PHP {fmt.shortPhp(sevenYearTotal, 'B')}
             </span>
+            <button
+              type="button"
+              className={`hamburger ${menuOpen ? 'open' : ''}`}
+              aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={menuOpen}
+              aria-controls="mobile-drawer"
+              onClick={() => setMenuOpen((o) => !o)}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
           </div>
           <h1 className="masthead-title">
             The <span className="dict-mark-inline">DICT</span> Budget Portal
@@ -1397,6 +1426,75 @@ export default function Portal() {
           </div>
         </div>
       </header>
+
+      {menuOpen && (
+        <div className="drawer-scrim" onClick={() => setMenuOpen(false)} aria-hidden="true" />
+      )}
+      <aside
+        id="mobile-drawer"
+        className={`drawer ${menuOpen ? 'open' : ''}`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Site navigation"
+      >
+        <div className="drawer-head">
+          <span className="drawer-eyebrow">Browse the data</span>
+          <button
+            type="button"
+            className="drawer-close"
+            aria-label="Close menu"
+            onClick={() => setMenuOpen(false)}
+          >
+            ×
+          </button>
+        </div>
+        <nav className="drawer-nav" aria-label="Portal sections">
+          {(
+            [
+              ['hierarchy', 'Overview'],
+              ['byyear', 'By year'],
+              ['programs', 'Programs'],
+              ['objects', 'Objects'],
+              ['methodology', 'Methodology'],
+            ] as Array<[View, string]>
+          ).map(([v, label]) => (
+            <button
+              key={v}
+              type="button"
+              className={`drawer-link ${view === v ? 'active' : ''}`}
+              onClick={() => {
+                go(v);
+                setMenuOpen(false);
+              }}
+            >
+              {label}
+              <span className="drawer-link-arrow">→</span>
+            </button>
+          ))}
+        </nav>
+        <div className="drawer-section">
+          <span className="drawer-eyebrow">The long-form pieces</span>
+          <Link className="drawer-link drawer-link-cross" to="/review">
+            The review <span className="drawer-link-arrow">→</span>
+          </Link>
+          <Link className="drawer-link drawer-link-cross" to="/future">
+            The future story <span className="drawer-link-arrow">→</span>
+          </Link>
+        </div>
+        <div className="drawer-section">
+          <span className="drawer-eyebrow">Dataset</span>
+          <DownloadCsvButton
+            data={data}
+            filter={{}}
+            filename="dict-budget-fy2020-2026.csv"
+            label="Download · CSV (~4,930 rows)"
+            variant="pill"
+          />
+          <p className="drawer-meta">
+            COMPILED · 7 FISCAL YEARS · GAA PHP {fmt.shortPhp(sevenYearTotal, 'B')}
+          </p>
+        </div>
+      </aside>
 
       <main style={{ maxWidth: 1440, margin: '0 auto', padding: '32px 32px 80px' }}>
         {view !== 'methodology' && <KpiStrip data={data} />}
