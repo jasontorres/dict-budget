@@ -12,6 +12,7 @@ export default function App() {
         <Route path="/by-year" element={<Portal />} />
         <Route path="/programs" element={<Portal />} />
         <Route path="/objects" element={<Portal />} />
+        <Route path="/data" element={<Portal />} />
         <Route path="/methodology" element={<Portal />} />
         <Route path="/review" element={<Review />} />
         <Route path="/future" element={<Future />} />

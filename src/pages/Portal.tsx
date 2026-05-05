@@ -4,8 +4,8 @@ import { loadDictData, YEARS } from '../lib/dict-data';
 import * as fmt from '../lib/format';
 import { Eyebrow, SectionHead, Spark } from '../components/shared';
 import SiteFooter from '../components/SiteFooter';
-import { downloadCsv, filterObjects, objectsToCsv } from '../lib/csv';
-import type { ObjectFilter } from '../lib/csv';
+import { buildColumns, buildRow, downloadCsv, filterObjects, objectsToCsv } from '../lib/csv';
+import type { ColumnDef, ObjectFilter, RawCell } from '../lib/csv';
 import type { DictData, FPAP, ObjectItem, BaseEntity, MoverEntry } from '../lib/types';
 
 const FALLBACK_YEAR = 2026;
@@ -16,6 +16,7 @@ const VIEW_BY_PATH: Record<string, View> = {
   '/by-year': 'byyear',
   '/programs': 'programs',
   '/objects': 'objects',
+  '/data': 'data',
   '/methodology': 'methodology',
 };
 
@@ -24,10 +25,11 @@ const PATH_BY_VIEW: Record<View, string> = {
   byyear: '/by-year',
   programs: '/programs',
   objects: '/objects',
+  data: '/data',
   methodology: '/methodology',
 };
 
-type View = 'hierarchy' | 'byyear' | 'programs' | 'objects' | 'methodology';
+type View = 'hierarchy' | 'byyear' | 'programs' | 'objects' | 'data' | 'methodology';
 
 interface DownloadButtonProps {
   data: DictData;
@@ -1314,6 +1316,310 @@ function ObjectsView({
   );
 }
 
+/* ---------- Raw data browser ---------- */
+const RAW_ROWS_PER_PAGE = 50;
+const DEFAULT_HIDDEN_COLS = new Set([
+  'department_id',
+  'department',
+  'fpap_id',
+  'operating_unit_id',
+  'fund_id',
+  'expense_id',
+  'object_id',
+]);
+
+function formatCell(col: ColumnDef, val: RawCell): string {
+  if (val == null || val === '') return '';
+  if (col.numeric && typeof val === 'number') {
+    if (col.group === 'year-amount' || col.key === 'total_amount_php') {
+      if (val === 0) return '';
+      return val.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    }
+    if (val === 0) return '';
+    return val.toLocaleString('en-US');
+  }
+  return String(val);
+}
+
+function DataBrowserView({ data }: { data: DictData }) {
+  const [q, setQ] = useState('');
+  const [bureau, setBureau] = useState('all');
+  const [expense, setExpense] = useState('all');
+  const [sortKey, setSortKey] = useState<string>('total_amount_php');
+  const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
+  const [page, setPage] = useState(0);
+  const [hidden, setHidden] = useState<Set<string>>(new Set(DEFAULT_HIDDEN_COLS));
+  const [colsOpen, setColsOpen] = useState(false);
+
+  const columns = useMemo(() => buildColumns(YEARS), []);
+
+  const expenseClasses = useMemo(() => {
+    const set = new Map<string, string>();
+    data.expenses.forEach((e) => {
+      const code = e.id.split('-').pop();
+      if (!code || code === 'nan') return;
+      const label = e.description || code;
+      if (!set.has(code)) set.set(code, label);
+    });
+    return Array.from(set.entries()).map(([code, label]) => ({ code, label }));
+  }, [data]);
+
+  const allRows = useMemo(() => {
+    return data.objects
+      .filter((o) => o.description && o.description !== 'nan')
+      .map((o) => buildRow(data, o, YEARS));
+  }, [data]);
+
+  const filtered = useMemo(() => {
+    const ql = q.trim().toLowerCase();
+    return allRows.filter((r) => {
+      if (bureau !== 'all' && r.agency_id !== bureau) return false;
+      if (expense !== 'all' && r.expense_class_code !== expense) return false;
+      if (ql) {
+        // Search across all visible string-ish columns.
+        for (const c of columns) {
+          if (c.numeric) continue;
+          const v = r[c.key];
+          if (v && String(v).toLowerCase().includes(ql)) return true;
+        }
+        return false;
+      }
+      return true;
+    });
+  }, [allRows, q, bureau, expense, columns]);
+
+  const sorted = useMemo(() => {
+    const list = filtered.slice();
+    list.sort((a, b) => {
+      const av = a[sortKey];
+      const bv = b[sortKey];
+      let cmp: number;
+      if (typeof av === 'number' && typeof bv === 'number') cmp = av - bv;
+      else cmp = String(av ?? '').localeCompare(String(bv ?? ''));
+      return sortDir === 'asc' ? cmp : -cmp;
+    });
+    return list;
+  }, [filtered, sortKey, sortDir]);
+
+  useEffect(() => {
+    setPage(0);
+  }, [q, bureau, expense, sortKey, sortDir]);
+
+  const totalRows = sorted.length;
+  const pageCount = Math.max(1, Math.ceil(totalRows / RAW_ROWS_PER_PAGE));
+  const pageRows = sorted.slice(page * RAW_ROWS_PER_PAGE, (page + 1) * RAW_ROWS_PER_PAGE);
+  const visibleCols = columns.filter((c) => !hidden.has(c.key));
+
+  function toggleSort(key: string, numeric: boolean) {
+    if (sortKey === key) setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'));
+    else {
+      setSortKey(key);
+      setSortDir(numeric ? 'desc' : 'asc');
+    }
+  }
+  const arrow = (k: string) => (sortKey === k ? (sortDir === 'asc' ? ' ↑' : ' ↓') : '');
+
+  function downloadFiltered() {
+    const objects = data.objects.filter((o) => {
+      if (!o.description || o.description === 'nan') return false;
+      if (bureau !== 'all' && o.agency_id !== bureau) return false;
+      if (expense !== 'all') {
+        const code = (o.expense_id || '').split('-').pop();
+        if (code !== expense) return false;
+      }
+      const ql = q.trim().toLowerCase();
+      if (ql) {
+        const r = buildRow(data, o, YEARS);
+        let hit = false;
+        for (const c of columns) {
+          if (c.numeric) continue;
+          const v = r[c.key];
+          if (v && String(v).toLowerCase().includes(ql)) {
+            hit = true;
+            break;
+          }
+        }
+        if (!hit) return false;
+      }
+      return true;
+    });
+    const csv = objectsToCsv(data, objects, YEARS);
+    const fn = `dict-data${bureau !== 'all' ? '-' + bureau : ''}${expense !== 'all' ? '-class' + expense : ''}${q ? '-q' : ''}.csv`;
+    downloadCsv(fn, csv);
+  }
+
+  function toggleCol(key: string) {
+    setHidden((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
+  return (
+    <div className="raw-browser">
+      <SectionHead
+        eyebrow={`Raw dataset · ${allRows.length.toLocaleString()} line items × ${columns.length} columns`}
+        headline="Raw data browser"
+        dek="The same flat table the CSV download produces — every UACS line item denormalised with its full department → agency → program → operating unit → fund → expense-class breadcrumb, plus seven years of amount + count columns. Search, filter, sort, paginate. Hidden ID columns can be toggled on for joins."
+      />
+
+      <div className="raw-toolbar">
+        <input
+          type="search"
+          className="raw-search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Search any column — try “internet”, “salary”, “OSEC”, a UACS code…"
+        />
+        <div className="raw-filters">
+          <label className="filter">
+            <span>Bureau</span>
+            <select value={bureau} onChange={(e) => setBureau(e.target.value)}>
+              <option value="all">All bureaus</option>
+              {data.agencies.map((a) => (
+                <option key={a.id} value={a.id}>
+                  {a.description}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="filter">
+            <span>Expense class</span>
+            <select value={expense} onChange={(e) => setExpense(e.target.value)}>
+              <option value="all">All classes</option>
+              {expenseClasses.map(({ code, label }) => (
+                <option key={code} value={code}>
+                  {label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <button
+            type="button"
+            className="raw-cols-btn"
+            aria-expanded={colsOpen}
+            onClick={() => setColsOpen((o) => !o)}
+          >
+            Columns · {visibleCols.length}/{columns.length}
+          </button>
+        </div>
+      </div>
+
+      {colsOpen && (
+        <div className="raw-cols-panel">
+          <div className="raw-cols-grid">
+            {columns.map((c) => (
+              <label key={c.key} className="raw-col-toggle">
+                <input
+                  type="checkbox"
+                  checked={!hidden.has(c.key)}
+                  onChange={() => toggleCol(c.key)}
+                />
+                <code>{c.key}</code>
+              </label>
+            ))}
+          </div>
+          <div className="raw-cols-actions">
+            <button type="button" onClick={() => setHidden(new Set())}>
+              Show all
+            </button>
+            <button type="button" onClick={() => setHidden(new Set(DEFAULT_HIDDEN_COLS))}>
+              Reset
+            </button>
+            <button type="button" onClick={() => setHidden(new Set(columns.map((c) => c.key)))}>
+              Hide all
+            </button>
+          </div>
+        </div>
+      )}
+
+      <div className="raw-summary">
+        <span>
+          <strong>{totalRows.toLocaleString()}</strong> rows match
+        </span>
+        <span className="sep">·</span>
+        <span>
+          page <strong>{page + 1}</strong> of {pageCount}
+        </span>
+        <span className="raw-summary-spacer" />
+        <button
+          type="button"
+          className="csv-btn csv-btn-pill"
+          disabled={totalRows === 0}
+          onClick={downloadFiltered}
+        >
+          <span className="csv-btn-arrow">↓</span>
+          <span>Download CSV · {totalRows.toLocaleString()} rows</span>
+        </button>
+      </div>
+
+      <div className="raw-table-wrap">
+        <table className="raw-table">
+          <thead>
+            <tr>
+              {visibleCols.map((c) => (
+                <th
+                  key={c.key}
+                  className={`raw-th raw-th-${c.group} ${c.numeric ? 'num' : ''}`}
+                  style={{ width: c.width, minWidth: c.width }}
+                  onClick={() => toggleSort(c.key, c.numeric)}
+                  title={`${c.key} (click to sort)`}
+                >
+                  {c.label}
+                  {arrow(c.key)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {pageRows.map((r) => (
+              <tr key={String(r.object_id)}>
+                {visibleCols.map((c) => (
+                  <td
+                    key={c.key}
+                    className={`raw-td raw-td-${c.group} ${c.numeric ? 'num' : ''}`}
+                    title={String(r[c.key] ?? '')}
+                  >
+                    {formatCell(c, r[c.key])}
+                  </td>
+                ))}
+              </tr>
+            ))}
+            {pageRows.length === 0 && (
+              <tr>
+                <td className="no-results" colSpan={visibleCols.length}>
+                  No rows match these filters.
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+
+      {pageCount > 1 && (
+        <div className="objects-pager">
+          <button disabled={page === 0} onClick={() => setPage((p) => Math.max(0, p - 1))}>
+            ← Prev
+          </button>
+          <span>
+            Page <strong>{page + 1}</strong> of {pageCount} · showing{' '}
+            {totalRows === 0 ? 0 : page * RAW_ROWS_PER_PAGE + 1}–
+            {Math.min((page + 1) * RAW_ROWS_PER_PAGE, totalRows)} of {totalRows.toLocaleString()}
+          </span>
+          <button
+            disabled={page >= pageCount - 1}
+            onClick={() => setPage((p) => Math.min(pageCount - 1, p + 1))}
+          >
+            Next →
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ---------- Page shell ---------- */
 export default function Portal() {
   const [data, setData] = useState<DictData | null>(null);
@@ -1411,6 +1717,9 @@ export default function Portal() {
               <button className={view === 'objects' ? 'active' : ''} onClick={() => go('objects')}>
                 Objects
               </button>
+              <button className={view === 'data' ? 'active' : ''} onClick={() => go('data')}>
+                Data
+              </button>
               <button className={view === 'methodology' ? 'active' : ''} onClick={() => go('methodology')}>
                 Methodology
               </button>
@@ -1455,6 +1764,7 @@ export default function Portal() {
               ['byyear', 'By year'],
               ['programs', 'Programs'],
               ['objects', 'Objects'],
+              ['data', 'Data'],
               ['methodology', 'Methodology'],
             ] as Array<[View, string]>
           ).map(([v, label]) => (
@@ -1497,16 +1807,17 @@ export default function Portal() {
       </aside>
 
       <main style={{ maxWidth: 1440, margin: '0 auto', padding: '32px 32px 80px' }}>
-        {view !== 'methodology' && <KpiStrip data={data} />}
+        {view !== 'methodology' && view !== 'data' && <KpiStrip data={data} />}
         {view === 'hierarchy' && <TrendChart data={data} />}
 
         {view === 'hierarchy' && <HierarchyView data={data} year={year} setYear={setYear} />}
         {view === 'byyear' && <ByYearView data={data} year={year} setYear={setYear} />}
         {view === 'programs' && <ProgramsView data={data} year={year} setYear={setYear} />}
         {view === 'objects' && <ObjectsView data={data} year={year} setYear={setYear} />}
+        {view === 'data' && <DataBrowserView data={data} />}
         {view === 'methodology' && <MethodologyView />}
 
-        {view !== 'methodology' && (
+        {view !== 'methodology' && view !== 'data' && (
           <p className="note-block">
             <strong>Note.</strong> All amounts are appropriations under the General Appropriations Act, in
             pesos. Source data is published in thousands; values shown here are converted to full pesos and
