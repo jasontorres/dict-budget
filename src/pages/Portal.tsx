@@ -668,7 +668,9 @@ function ProgramsView({
         const total = YEARS.reduce((s, y) => s + (f.years[y]?.amount || 0), 0);
         return { f, v, total };
       })
-      .sort((a, b) => b.total - a.total);
+      // Sort by the active year's amount descending; fall back to 7-year total
+      // so programs that don't appear in the selected year still rank stably.
+      .sort((a, b) => b.v - a.v || b.total - a.total);
   }, [data, year, q, agency]);
 
   return (
