@@ -284,15 +284,43 @@ function HierarchyRow({
   );
 }
 
-/* ---------- Year tabs ---------- */
-function YearTabs({ year, setYear }: { year: number; setYear: (y: number) => void }) {
+/* ---------- Year strip (prominent, used across year-aware views) ---------- */
+function YearStrip({
+  data,
+  year,
+  setYear,
+}: {
+  data: DictData;
+  year: number;
+  setYear: (y: number) => void;
+}) {
+  const peak = Math.max(...YEARS.map((y) => data.total(y)));
   return (
-    <div className="year-tabs">
-      {YEARS.map((y) => (
-        <button key={y} className={y === year ? 'active' : ''} onClick={() => setYear(y)}>
-          {y}
-        </button>
-      ))}
+    <div className="year-strip-wrap">
+      <p className="eyebrow">Pick a fiscal year</p>
+      <div className="year-strip" role="tablist" aria-label="Fiscal year">
+        {YEARS.map((y) => {
+          const v = data.total(y);
+          const p = peak ? (v / peak) * 100 : 0;
+          const active = y === year;
+          return (
+            <button
+              key={y}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              className={`year-cell ${active ? 'active' : ''}`}
+              onClick={() => setYear(y)}
+            >
+              <div className="year-cell-num">FY {y}</div>
+              <div className="year-cell-meta">{fmt.shortPhp(v, 'B')} GAA</div>
+              <div className="year-cell-bar">
+                <span style={{ width: `${p}%` }} />
+              </div>
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -395,9 +423,10 @@ function HierarchyView({
 
   return (
     <div>
-      <div className="flex between items-center" style={{ marginBottom: 14 }}>
+      <YearStrip data={data} year={year} setYear={setYear} />
+
+      <div style={{ marginBottom: 14, marginTop: 28 }}>
         <Eyebrow>Hierarchy · drill from department to expense class</Eyebrow>
-        <YearTabs year={year} setYear={setYear} />
       </div>
 
       <div className="crumbs">
@@ -616,7 +645,15 @@ function Treemap({ data, year, height = 480 }: { data: DictData; year: number; h
 }
 
 /* ---------- Programs view ---------- */
-function ProgramsView({ data, year }: { data: DictData; year: number; setYear?: (y: number) => void }) {
+function ProgramsView({
+  data,
+  year,
+  setYear,
+}: {
+  data: DictData;
+  year: number;
+  setYear: (y: number) => void;
+}) {
   const [q, setQ] = useState('');
   const [agency, setAgency] = useState('all');
 
@@ -634,30 +671,32 @@ function ProgramsView({ data, year }: { data: DictData; year: number; setYear?: 
 
   return (
     <div>
-      <div className="flex between items-center" style={{ marginBottom: 14, gap: 16 }}>
+      <YearStrip data={data} year={year} setYear={setYear} />
+
+      <div
+        className="flex between items-center"
+        style={{ marginBottom: 14, marginTop: 28, gap: 16 }}
+      >
         <Eyebrow>Programs · merged across renames · 7-year view</Eyebrow>
-        <div className="flex" style={{ gap: 12 }}>
-          <select
-            value={agency}
-            onChange={(e) => setAgency(e.target.value)}
-            style={{
-              border: '1px solid var(--ink)',
-              padding: '7px 10px',
-              fontFamily: 'var(--font-mono)',
-              fontSize: 12,
-              background: 'var(--paper)',
-              color: 'var(--ink)',
-            }}
-          >
-            <option value="all">All bureaus</option>
-            {data.agencies.map((a) => (
-              <option key={a.id} value={a.id}>
-                {a.description}
-              </option>
-            ))}
-          </select>
-          <YearTabs year={year} setYear={() => {}} />
-        </div>
+        <select
+          value={agency}
+          onChange={(e) => setAgency(e.target.value)}
+          style={{
+            border: '1px solid var(--ink)',
+            padding: '7px 10px',
+            fontFamily: 'var(--font-mono)',
+            fontSize: 12,
+            background: 'var(--paper)',
+            color: 'var(--ink)',
+          }}
+        >
+          <option value="all">All bureaus</option>
+          {data.agencies.map((a) => (
+            <option key={a.id} value={a.id}>
+              {a.description}
+            </option>
+          ))}
+        </select>
       </div>
 
       <input
@@ -797,9 +836,10 @@ function ByYearView({
 
   return (
     <div>
-      <div className="flex between items-center" style={{ marginBottom: 14 }}>
+      <YearStrip data={data} year={year} setYear={setYear} />
+
+      <div style={{ marginBottom: 14, marginTop: 28 }}>
         <Eyebrow>FY {year} · the budget at a single moment</Eyebrow>
-        <YearTabs year={year} setYear={setYear} />
       </div>
 
       <div className="grid grid-2" style={{ marginBottom: 28 }}>
@@ -1101,13 +1141,17 @@ function ObjectsView({
 
   return (
     <div className="objects-view">
-      <SectionHead
-        eyebrow={`Objects · all ${data.objects
-          .filter((o) => o.description !== 'nan')
-          .length.toLocaleString()} UACS line items · FY ${year}`}
-        headline="Every line item, searchable"
-        dek="The lowest level of the budget hierarchy: each row is a single object code in a single fund, in a single operating unit, under a single program. This is the data your auditor reads. Search by name (e.g. “internet”), filter by bureau or expense class, click a row for the full breadcrumb."
-      />
+      <YearStrip data={data} year={year} setYear={setYear} />
+
+      <div style={{ marginTop: 28 }}>
+        <SectionHead
+          eyebrow={`Objects · all ${data.objects
+            .filter((o) => o.description !== 'nan')
+            .length.toLocaleString()} UACS line items · FY ${year}`}
+          headline="Every line item, searchable"
+          dek="The lowest level of the budget hierarchy: each row is a single object code in a single fund, in a single operating unit, under a single program. This is the data your auditor reads. Search by name (e.g. “internet”), filter by bureau or expense class, click a row for the full breadcrumb."
+        />
+      </div>
 
       <div className="objects-toolbar">
         <div className="objects-search">
@@ -1137,16 +1181,6 @@ function ObjectsView({
               {expenseClasses.map(({ code, label }) => (
                 <option key={code} value={code}>
                   {label}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter">
-            <span>Year</span>
-            <select value={year} onChange={(e) => setYear(parseInt(e.target.value))}>
-              {YEARS.map((y) => (
-                <option key={y} value={y}>
-                  FY {y}
                 </option>
               ))}
             </select>

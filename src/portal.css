@@ -903,3 +903,53 @@ html, body {
   .crumb-download { margin-left: 0; padding-left: 0; padding-top: 8px; flex-basis: 100%; }
   .objects-summary-spacer { display: none; }
 }
+
+/* ---------- Year strip (prominent year picker) ---------- */
+.year-strip-wrap {
+  margin: 0 0 12px;
+}
+.year-strip-wrap .eyebrow {
+  margin-bottom: 10px;
+}
+.year-strip {
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: var(--paper);
+}
+.year-strip .year-cell {
+  border: none;
+  border-right: 1px solid var(--rule);
+  font-family: inherit;
+  color: inherit;
+}
+.year-strip .year-cell:last-child { border-right: none; }
+.year-cell-num {
+  font-family: var(--font-hero);
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.year-cell-meta {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 8px;
+}
+.year-cell.active .year-cell-meta { color: var(--paper); opacity: 0.85; }
+
+@media (max-width: 720px) {
+  .year-strip { flex-wrap: wrap; }
+  .year-strip .year-cell {
+    flex: 1 1 33.333%;
+    border-bottom: 1px solid var(--rule);
+  }
+  .year-strip .year-cell:nth-child(3n) { border-right: none; }
+  .year-strip .year-cell:nth-last-child(-n+2) { border-bottom: none; }
+  .year-cell-num { font-size: 22px; }
+  .year-cell-meta { font-size: 10px; }
+}
