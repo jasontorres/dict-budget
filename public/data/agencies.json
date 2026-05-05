@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "GAA Agencies (Department 37)",
+    "source": "General Appropriations Act",
+    "department_id": "37",
+    "total_items": 4
+  },
+  "data": [
+    {
+      "id": "37-001",
+      "slug": "office-of-the-secretary",
+      "agency_code": "001",
+      "description": "Office of the Secretary",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 562,
+          "amount": 7185029.0
+        },
+        "2021": {
+          "count": 376,
+          "amount": 11216882.0
+        },
+        "2022": {
+          "count": 405,
+          "amount": 9067970.0
+        },
+        "2023": {
+          "count": 380,
+          "amount": 9738018.0
+        },
+        "2024": {
+          "count": 376,
+          "amount": 7814661.0
+        },
+        "2025": {
+          "count": 463,
+          "amount": 12833032.0
+        },
+        "2026": {
+          "count": 560,
+          "amount": 16442712.0
+        }
+      }
+    },
+    {
+      "id": "37-002",
+      "slug": "national-telecommunications-commission",
+      "agency_code": "002",
+      "description": "National Telecommunications Commission",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1042,
+          "amount": 3913480.0
+        },
+        "2021": {
+          "count": 806,
+          "amount": 695378.0
+        },
+        "2022": {
+          "count": 828,
+          "amount": 540808.0
+        },
+        "2023": {
+          "count": 783,
+          "amount": 560575.0
+        },
+        "2024": {
+          "count": 790,
+          "amount": 778190.0
+        },
+        "2025": {
+          "count": 791,
+          "amount": 578325.0
+        },
+        "2026": {
+          "count": 814,
+          "amount": 755345.0
+        }
+      }
+    },
+    {
+      "id": "37-003",
+      "slug": "national-privacy-commission",
+      "agency_code": "003",
+      "description": "National Privacy Commission",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 96,
+          "amount": 234688.0
+        },
+        "2021": {
+          "count": 88,
+          "amount": 215132.0
+        },
+        "2022": {
+          "count": 81,
+          "amount": 228556.0
+        },
+        "2023": {
+          "count": 90,
+          "amount": 228175.0
+        },
+        "2024": {
+          "count": 92,
+          "amount": 447498.0
+        },
+        "2025": {
+          "count": 89,
+          "amount": 371785.0
+        },
+        "2026": {
+          "count": 88,
+          "amount": 440536.0
+        }
+      }
+    },
+    {
+      "id": "37-004",
+      "slug": "cybercrime-investigation-and-coordination-center",
+      "agency_code": "004",
+      "description": "Cybercrime Investigation and Coordination Center",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 20,
+          "amount": 11261.0
+        },
+        "2021": {
+          "count": 18,
+          "amount": 11670.0
+        },
+        "2022": {
+          "count": 75,
+          "amount": 366534.0
+        },
+        "2023": {
+          "count": 84,
+          "amount": 353121.0
+        },
+        "2024": {
+          "count": 85,
+          "amount": 474766.0
+        },
+        "2025": {
+          "count": 73,
+          "amount": 1314619.0
+        },
+        "2026": {
+          "count": 71,
+          "amount": 579084.0
+        }
+      }
+    }
+  ]
+}

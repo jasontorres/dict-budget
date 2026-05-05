@@ -1,0 +1,2744 @@
+{
+  "metadata": {
+    "title": "GAA Fpaps (Department 37)",
+    "source": "General Appropriations Act",
+    "department_id": "37",
+    "total_items": 91
+  },
+  "data": [
+    {
+      "id": "37-001-100000000000000",
+      "slug": "general-administration-and-support",
+      "fpap_code": "100000000000000",
+      "description": "General Administration and Support",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000",
+      "slug": "general-management-and-supervision",
+      "fpap_code": "100000100001000",
+      "description": "General Management and Supervision",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 69,
+          "amount": 686455.0
+        },
+        "2021": {
+          "count": 62,
+          "amount": 608298.0
+        },
+        "2022": {
+          "count": 62,
+          "amount": 608247.0
+        },
+        "2023": {
+          "count": 67,
+          "amount": 756289.0
+        },
+        "2024": {
+          "count": 41,
+          "amount": 543392.0
+        },
+        "2025": {
+          "count": 46,
+          "amount": 1122651.0
+        },
+        "2026": {
+          "count": 45,
+          "amount": 1214530.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000",
+      "slug": "organization-and-human-resource-management-and-development",
+      "fpap_code": "100000100002000",
+      "description": "Organization and Human Resource Management and Development",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 25,
+          "amount": 8268.0
+        },
+        "2021": {
+          "count": 20,
+          "amount": 6713.0
+        },
+        "2022": {
+          "count": 20,
+          "amount": 11924.0
+        },
+        "2023": {
+          "count": 20,
+          "amount": 17240.0
+        },
+        "2024": {
+          "count": 20,
+          "amount": 14747.0
+        },
+        "2025": {
+          "count": 20,
+          "amount": 13718.0
+        },
+        "2026": {
+          "count": 20,
+          "amount": 16136.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100003000",
+      "slug": "administration-of-personnel-benefits",
+      "fpap_code": "100000100003000",
+      "description": "Administration of Personnel Benefits",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 11330.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1837.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 2641.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 14014.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 5391.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 6861.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 19648.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000000000000",
+      "slug": "support-to-operations",
+      "fpap_code": "200000000000000",
+      "description": "Support to Operations",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000",
+      "slug": "internal-support-management-program",
+      "fpap_code": "200000100001000",
+      "description": "Internal Support Management Program",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 31,
+          "amount": 18508.0
+        },
+        "2021": {
+          "count": 18,
+          "amount": 16626.0
+        },
+        "2022": {
+          "count": 19,
+          "amount": 13158.0
+        },
+        "2023": {
+          "count": 18,
+          "amount": 25756.0
+        },
+        "2024": {
+          "count": 20,
+          "amount": 25198.0
+        },
+        "2025": {
+          "count": 20,
+          "amount": 21777.0
+        },
+        "2026": {
+          "count": 26,
+          "amount": 25599.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000",
+      "slug": "internal-systems-and-standards-development-and-management-program",
+      "fpap_code": "200000100002000",
+      "description": "Internal Systems and Standards Development and Management Program",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 36,
+          "amount": 50039.0
+        },
+        "2021": {
+          "count": 29,
+          "amount": 70388.0
+        },
+        "2022": {
+          "count": 28,
+          "amount": 62235.0
+        },
+        "2023": {
+          "count": 20,
+          "amount": 31675.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 23273.0
+        },
+        "2025": {
+          "count": 26,
+          "amount": 636391.0
+        },
+        "2026": {
+          "count": 25,
+          "amount": 68753.0
+        }
+      }
+    },
+    {
+      "id": "37-001-300000000000000",
+      "slug": "operations",
+      "fpap_code": "300000000000000",
+      "description": "Operations",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310000000000000",
+      "slug": "oo-an-innovative-safe-and-happy-nation-that-thrives-through-and-is-enabled-by-the-extensive-utilization-of-information-and-communications-technology",
+      "fpap_code": "310000000000000",
+      "description": "OO : An innovative, safe and happy nation that thrives through and is enabled by the extensive utilization of Information and Communications Technology",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100000000000",
+      "slug": "ict-governance-program",
+      "fpap_code": "310100000000000",
+      "description": "ICT GOVERNANCE PROGRAM",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000",
+      "slug": "ict-plans-development-and-management",
+      "fpap_code": "310100100001000",
+      "description": "ICT Plans Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 43,
+          "amount": 29819.0
+        },
+        "2021": {
+          "count": 23,
+          "amount": 28215.0
+        },
+        "2022": {
+          "count": 27,
+          "amount": 50123.0
+        },
+        "2023": {
+          "count": 26,
+          "amount": 31927.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 25498.0
+        },
+        "2025": {
+          "count": 23,
+          "amount": 29305.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000",
+      "slug": "ict-and-cybersecurity-policies-development-and-management",
+      "fpap_code": "310100100002000",
+      "description": "ICT and Cybersecurity Policies Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 51,
+          "amount": 1052121.0
+        },
+        "2021": {
+          "count": 32,
+          "amount": 941991.0
+        },
+        "2022": {
+          "count": 32,
+          "amount": 602846.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 282700.0
+        },
+        "2024": {
+          "count": 31,
+          "amount": 738197.0
+        },
+        "2025": {
+          "count": 44,
+          "amount": 1072090.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100003000",
+      "slug": "plans-policies-regulations-and-standards-development-and-management",
+      "fpap_code": "310100100003000",
+      "description": "Plans, Policies, Regulations and Standards Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 59699.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310100200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000",
+      "slug": "national-ict-household-survey",
+      "fpap_code": "310100200001000",
+      "description": "National ICT Household Survey",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 62741.0
+        },
+        "2021": {
+          "count": 5,
+          "amount": 17618.0
+        },
+        "2022": {
+          "count": 6,
+          "amount": 70600.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 16873.0
+        },
+        "2025": {
+          "count": 10,
+          "amount": 34218.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100_00000000",
+      "slug": "projects",
+      "fpap_code": "310100_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200000000000",
+      "slug": "ict-systems-and-information-infrastructure-development-management-and-advisory-program",
+      "fpap_code": "310200000000000",
+      "description": "ICT SYSTEMS AND INFORMATION INFRASTRUCTURE DEVELOPMENT, MANAGEMENT AND ADVISORY PROGRAM",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100001000",
+      "slug": "cybersecurity-information-infrastructure-development-and-management",
+      "fpap_code": "310200100001000",
+      "description": "Cybersecurity Information Infrastructure Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 1960909.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100002000",
+      "slug": "digital-government-development-and-management",
+      "fpap_code": "310200100002000",
+      "description": "Digital Government Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 35,
+          "amount": 1491325.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100003000",
+      "slug": "digital-information-infrastructure-development-and-management",
+      "fpap_code": "310200100003000",
+      "description": "Digital Information Infrastructure Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 507174.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310200200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200001000",
+      "slug": "free-public-internet-access-program",
+      "fpap_code": "310200200001000",
+      "description": "Free Public Internet Access Program",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 17,
+          "amount": 5000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200002000",
+      "slug": "national-government-data-center-infrastructure",
+      "fpap_code": "310200200002000",
+      "description": "National Government Data Center Infrastructure",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 19,
+          "amount": 747526.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200003000",
+      "slug": "national-broadband-program",
+      "fpap_code": "310200200003000",
+      "description": "National Broadband Program",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 667474.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200004000",
+      "slug": "national-government-portal",
+      "fpap_code": "310200200004000",
+      "description": "National Government Portal",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 16,
+          "amount": 291862.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200005000",
+      "slug": "government-transparency-and-accountability-platform",
+      "fpap_code": "310200200005000",
+      "description": "Government Transparency and Accountability Platform",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 2,
+          "amount": 65000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300000000",
+      "slug": "foreign-assisted-projects",
+      "fpap_code": "310200300000000",
+      "description": "Foreign-Assisted Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300001000",
+      "slug": "philippine-digital-infrastructure-project-ibrd-loan-no9730-ph",
+      "fpap_code": "310200300001000",
+      "description": "Philippine Digital Infrastructure Project IBRD Loan No.9730-PH",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 24,
+          "amount": 3255123.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200_00000000",
+      "slug": "projects",
+      "fpap_code": "310200_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201000000000",
+      "slug": "innovation-and-development-sub-program",
+      "fpap_code": "310201000000000",
+      "description": "INNOVATION AND DEVELOPMENT SUB-PROGRAM",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000",
+      "slug": "ict-systems-and-infostructure-development",
+      "fpap_code": "310201100001000",
+      "description": "ICT Systems and Infostructure Development",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 58,
+          "amount": 430379.0
+        },
+        "2021": {
+          "count": 31,
+          "amount": 344984.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 293194.0
+        },
+        "2023": {
+          "count": 31,
+          "amount": 1211434.0
+        },
+        "2024": {
+          "count": 30,
+          "amount": 907596.0
+        },
+        "2025": {
+          "count": 36,
+          "amount": 1774266.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310201200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200001000",
+      "slug": "national-government-data-center-infrastructure",
+      "fpap_code": "310201200001000",
+      "description": "National Government Data Center Infrastructure",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 22,
+          "amount": 345149.0
+        },
+        "2021": {
+          "count": 10,
+          "amount": 1670235.0
+        },
+        "2022": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2023": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2024": {
+          "count": 25,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 19,
+          "amount": 550000.0
+        },
+        "2026": {
+          "count": 18,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000",
+      "slug": "free-internet-wi-fi-connectivity-in-public-places",
+      "fpap_code": "310201200002000",
+      "description": "Free Internet Wi-Fi Connectivity in Public Places",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 16,
+          "amount": 1184558.0
+        },
+        "2021": {
+          "count": 8,
+          "amount": 2667576.0
+        },
+        "2022": {
+          "count": 19,
+          "amount": 2500000.0
+        },
+        "2023": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2024": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 2449345.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200003000",
+      "slug": "national-broadband-plan",
+      "fpap_code": "310201200003000",
+      "description": "National Broadband Plan",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 28,
+          "amount": 296461.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 1858194.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 1500000.0
+        },
+        "2023": {
+          "count": 24,
+          "amount": 1880000.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 29,
+          "amount": 750000.0
+        },
+        "2026": {
+          "count": 28,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200004000",
+      "slug": "national-government-portal",
+      "fpap_code": "310201200004000",
+      "description": "National Government Portal",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 25,
+          "amount": 431172.0
+        },
+        "2021": {
+          "count": 19,
+          "amount": 317055.0
+        },
+        "2022": {
+          "count": 18,
+          "amount": 317055.0
+        },
+        "2023": {
+          "count": 17,
+          "amount": 269076.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 302862.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 302862.0
+        },
+        "2026": {
+          "count": 15,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000",
+      "slug": "free-internet-wi-fi-connectivity-in-state-universities-and-colleges",
+      "fpap_code": "310201200005000",
+      "description": "Free Internet Wi-Fi Connectivity in State Universities and Colleges",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 329895.0
+        },
+        "2021": {
+          "count": 2,
+          "amount": 557885.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200006000",
+      "slug": "provision-of-free-internet-wifi-connectivity-in-region-viii",
+      "fpap_code": "310201200006000",
+      "description": "Provision of Free Internet WIFI Connectivity in Region VIII",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 109038.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200007000",
+      "slug": "broadband-ng-masa-for-region-vi",
+      "fpap_code": "310201200007000",
+      "description": "Broadband ng Masa for Region VI",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 71980.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200008000",
+      "slug": "emergency-telecommunications-facilities-for-drrm-offices-in-region-viii",
+      "fpap_code": "310201200008000",
+      "description": "Emergency Telecommunications Facilities for DRRM Offices in Region VIII",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 5,
+          "amount": 160750.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200009000",
+      "slug": "development-of-ict-operations-support-center-for-dict-northern-luzon",
+      "fpap_code": "310201200009000",
+      "description": "Development of ICT Operations Support Center for DICT Northern Luzon",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 1000000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200010000",
+      "slug": "e-government-systems-development-egovsd-maintenance-security-and-integration-of-the-current-digital-platforms",
+      "fpap_code": "310201200010000",
+      "description": "e-Government Systems Development (eGovSD) - Maintenance, Security and Integration of the Current Digital Platforms",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 4,
+          "amount": 1000000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200011000",
+      "slug": "digital-national-id-and-national-id-everify",
+      "fpap_code": "310201200011000",
+      "description": "Digital National ID and National ID eVerify",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 500000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200012000",
+      "slug": "free-wi-fi-for-all-region-v",
+      "fpap_code": "310201200012000",
+      "description": "Free Wi-Fi for All - Region V",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 250000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200013000",
+      "slug": "operation-and-maintenance-of-the-free-internet-wi-fi-connectivity-in-region-viii",
+      "fpap_code": "310201200013000",
+      "description": "Operation and Maintenance of the Free Internet Wi-Fi Connectivity in Region VIII",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 202020.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200014000",
+      "slug": "ilocos-norte-free-public-internet-access-program",
+      "fpap_code": "310201200014000",
+      "description": "Ilocos Norte Free Public Internet Access Program",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 35000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200015000",
+      "slug": "digital-health-solutions-system-city-of-sto-tomas-batangas",
+      "fpap_code": "310201200015000",
+      "description": "Digital Health Solutions System, City of Sto. Tomas, Batangas",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 50000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300000000",
+      "slug": "foreign-assisted-projects",
+      "fpap_code": "310201300000000",
+      "description": "Foreign-Assisted Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300001000",
+      "slug": "philippine-digital-infrastructure-project-wb-ibrd",
+      "fpap_code": "310201300001000",
+      "description": "Philippine Digital Infrastructure Project (WB-IBRD)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 11,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201_00000000",
+      "slug": "projects",
+      "fpap_code": "310201_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202000000000",
+      "slug": "implementation-management-and-operations-sub-program",
+      "fpap_code": "310202000000000",
+      "description": "IMPLEMENTATION MANAGEMENT AND OPERATIONS SUB-PROGRAM",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000",
+      "slug": "ict-systems-and-infostructure-management-and-services",
+      "fpap_code": "310202100001000",
+      "description": "ICT Systems and Infostructure Management and Services",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 49,
+          "amount": 335624.0
+        },
+        "2021": {
+          "count": 36,
+          "amount": 741821.0
+        },
+        "2022": {
+          "count": 35,
+          "amount": 405346.0
+        },
+        "2023": {
+          "count": 30,
+          "amount": 238909.0
+        },
+        "2024": {
+          "count": 24,
+          "amount": 90015.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 247948.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300000000000",
+      "slug": "ict-capacity-and-industry-ecosystem-development-and-management-program",
+      "fpap_code": "310300000000000",
+      "description": "ICT CAPACITY AND INDUSTRY ECOSYSTEM DEVELOPMENT AND MANAGEMENT PROGRAM",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000",
+      "slug": "ict-literacy-development-and-management",
+      "fpap_code": "310300100001000",
+      "description": "ICT Literacy Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 36,
+          "amount": 1295435.0
+        },
+        "2021": {
+          "count": 24,
+          "amount": 789730.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 340001.0
+        },
+        "2023": {
+          "count": 23,
+          "amount": 266372.0
+        },
+        "2024": {
+          "count": 28,
+          "amount": 210341.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 328761.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000",
+      "slug": "ict-industry-and-countryside-development",
+      "fpap_code": "310300100002000",
+      "description": "ICT Industry and Countryside Development",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 44,
+          "amount": 617075.0
+        },
+        "2021": {
+          "count": 30,
+          "amount": 577716.0
+        },
+        "2022": {
+          "count": 30,
+          "amount": 569710.0
+        },
+        "2023": {
+          "count": 26,
+          "amount": 306611.0
+        },
+        "2024": {
+          "count": 33,
+          "amount": 750528.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 405164.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100003000",
+      "slug": "ict-capacity-development-and-management",
+      "fpap_code": "310300100003000",
+      "description": "ICT Capacity Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 43,
+          "amount": 680806.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100004000",
+      "slug": "ict-industry-ecosystem-development-and-management",
+      "fpap_code": "310300100004000",
+      "description": "ICT Industry Ecosystem Development and Management",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 38,
+          "amount": 371148.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310300200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200001000",
+      "slug": "construction-of-point-of-presence-office-and-digital-transformation-center-dtc-in-region-viii",
+      "fpap_code": "310300200001000",
+      "description": "Construction of Point of Presence Office and Digital Transformation Center (DTC) in Region VIII",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 54762.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300_00000000",
+      "slug": "projects",
+      "fpap_code": "310300_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000000000000",
+      "slug": "general-administration-and-support",
+      "fpap_code": "100000000000000",
+      "description": "General Administration and Support",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000",
+      "slug": "general-management-and-supervision",
+      "fpap_code": "100000100001000",
+      "description": "General management and supervision",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 64,
+          "amount": 173754.0
+        },
+        "2021": {
+          "count": 47,
+          "amount": 135254.0
+        },
+        "2022": {
+          "count": 50,
+          "amount": 116422.0
+        },
+        "2023": {
+          "count": 50,
+          "amount": 122647.0
+        },
+        "2024": {
+          "count": 49,
+          "amount": 113864.0
+        },
+        "2025": {
+          "count": 50,
+          "amount": 148706.0
+        },
+        "2026": {
+          "count": 51,
+          "amount": 144789.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100002000",
+      "slug": "administration-of-personnel-benefits",
+      "fpap_code": "100000100002000",
+      "description": "Administration of Personnel Benefits",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 14938.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 626.0
+        },
+        "2022": {
+          "count": 2,
+          "amount": 3205.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 2289.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 8522.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 8906.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 5189.0
+        }
+      }
+    },
+    {
+      "id": "37-002-200000000000000",
+      "slug": "support-to-operations",
+      "fpap_code": "200000000000000",
+      "description": "Support to Operations",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-300000000000000",
+      "slug": "operations",
+      "fpap_code": "300000000000000",
+      "description": "Operations",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310000000000000",
+      "slug": "oo-healthy-competitive-public-telecommunications-and-broadcast-environment-fostered-and-safety-in-maritime-and-aeronautical-navigation-ensured-resulting-to-public-safety-and-satisfaction",
+      "fpap_code": "310000000000000",
+      "description": "OO : Healthy competitive public telecommunications and broadcast environment fostered and safety in maritime and aeronautical navigation ensured resulting to public safety and satisfaction",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100000000000",
+      "slug": "radio-communications-broadcast-and-telecommunications-management-and-enforcement-program",
+      "fpap_code": "310100000000000",
+      "description": "RADIO COMMUNICATIONS, BROADCAST AND TELECOMMUNICATIONS  MANAGEMENT  AND  ENFORCEMENT  PROGRAM",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000",
+      "slug": "regulation-of-radio-communications-broadcast-and-telecommunications-facilities",
+      "fpap_code": "310100100001000",
+      "description": "Regulation of radio communications, broadcast, and telecommunications facilities",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 932,
+          "amount": 414864.0
+        },
+        "2021": {
+          "count": 724,
+          "amount": 524652.0
+        },
+        "2022": {
+          "count": 734,
+          "amount": 385421.0
+        },
+        "2023": {
+          "count": 698,
+          "amount": 403949.0
+        },
+        "2024": {
+          "count": 710,
+          "amount": 629590.0
+        },
+        "2025": {
+          "count": 706,
+          "amount": 379287.0
+        },
+        "2026": {
+          "count": 725,
+          "amount": 564166.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000",
+      "slug": "adjudication-of-cases-and-applications-for-certificates-of-public-convenience-and-necessity-cpcn-for-telecom-service-providers-and-certificates-of-public-convenience-cpc-and-broadcast-service-providers",
+      "fpap_code": "310100100002000",
+      "description": "Adjudication of cases and applications for Certificates of Public Convenience and Necessity ( CPCN ) for telecom service providers and Certificates of Public Convenience ( CPC ) and broadcast service providers",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 36,
+          "amount": 34924.0
+        },
+        "2021": {
+          "count": 30,
+          "amount": 34846.0
+        },
+        "2022": {
+          "count": 33,
+          "amount": 35760.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 31690.0
+        },
+        "2024": {
+          "count": 21,
+          "amount": 26214.0
+        },
+        "2025": {
+          "count": 25,
+          "amount": 41426.0
+        },
+        "2026": {
+          "count": 28,
+          "amount": 41201.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310100200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200001000",
+      "slug": "ict-modernization-program",
+      "fpap_code": "310100200001000",
+      "description": "ICT Modernization  Program",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 2800000.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200002000",
+      "slug": "national-emergency-communication-resiliency",
+      "fpap_code": "310100200002000",
+      "description": "National Emergency Communication Resiliency",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 475000.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100_00000000",
+      "slug": "projects",
+      "fpap_code": "310100_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000000000000",
+      "slug": "general-administration-and-support",
+      "fpap_code": "100000000000000",
+      "description": "General Administration and Support",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000",
+      "slug": "general-management-and-supervision",
+      "fpap_code": "100000100001000",
+      "description": "General Management and Supervision",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 52,
+          "amount": 107618.0
+        },
+        "2021": {
+          "count": 46,
+          "amount": 105445.0
+        },
+        "2022": {
+          "count": 42,
+          "amount": 119020.0
+        },
+        "2023": {
+          "count": 52,
+          "amount": 116242.0
+        },
+        "2024": {
+          "count": 52,
+          "amount": 182466.0
+        },
+        "2025": {
+          "count": 50,
+          "amount": 176052.0
+        },
+        "2026": {
+          "count": 50,
+          "amount": 201608.0
+        }
+      }
+    },
+    {
+      "id": "37-003-200000000000000",
+      "slug": "support-to-operations",
+      "fpap_code": "200000000000000",
+      "description": "Support to Operations",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-300000000000000",
+      "slug": "operations",
+      "fpap_code": "300000000000000",
+      "description": "Operations",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310000000000000",
+      "slug": "oo-privacy-and-data-security-in-information-and-communication-systems-supported-and-enhanced",
+      "fpap_code": "310000000000000",
+      "description": "OO : Privacy and data security in information and communication systems supported and enhanced",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100000000000",
+      "slug": "regulatory-and-enforcement-program",
+      "fpap_code": "310100000000000",
+      "description": "REGULATORY AND ENFORCEMENT PROGRAM",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000",
+      "slug": "regulation-and-enforcement-of-privacy-and-data-security-in-information-and-communication-systems",
+      "fpap_code": "310100100001000",
+      "description": "Regulation and Enforcement of Privacy and Data Security in Information and Communication Systems",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 39,
+          "amount": 127070.0
+        },
+        "2021": {
+          "count": 38,
+          "amount": 109687.0
+        },
+        "2022": {
+          "count": 34,
+          "amount": 109536.0
+        },
+        "2023": {
+          "count": 33,
+          "amount": 111933.0
+        },
+        "2024": {
+          "count": 35,
+          "amount": 265032.0
+        },
+        "2025": {
+          "count": 34,
+          "amount": 195733.0
+        },
+        "2026": {
+          "count": 33,
+          "amount": 238928.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000000000000",
+      "slug": "general-administration-and-support",
+      "fpap_code": "100000000000000",
+      "description": "General Administration and Support",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000",
+      "slug": "general-management-and-supervision",
+      "fpap_code": "100000100001000",
+      "description": "General Management and Supervision",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 1081.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1120.0
+        },
+        "2022": {
+          "count": 43,
+          "amount": 158730.0
+        },
+        "2023": {
+          "count": 50,
+          "amount": 145317.0
+        },
+        "2024": {
+          "count": 53,
+          "amount": 127180.0
+        },
+        "2025": {
+          "count": 37,
+          "amount": 206925.0
+        },
+        "2026": {
+          "count": 36,
+          "amount": 134038.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100002000",
+      "slug": "administration-of-personnel-benefits",
+      "fpap_code": "100000100002000",
+      "description": "Administration of Personnel Benefits",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 210.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 376.0
+        }
+      }
+    },
+    {
+      "id": "37-004-200000000000000",
+      "slug": "support-to-operations",
+      "fpap_code": "200000000000000",
+      "description": "Support to Operations",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-300000000000000",
+      "slug": "operations",
+      "fpap_code": "300000000000000",
+      "description": "Operations",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310000000000000",
+      "slug": "oo-cybercrime-prevention-investigation-and-coordination-strengthened",
+      "fpap_code": "310000000000000",
+      "description": "OO : Cybercrime prevention, investigation and coordination strengthened",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100000000000",
+      "slug": "cybercrime-prevention-investigation-and-coordination-program",
+      "fpap_code": "310100000000000",
+      "description": "CYBERCRIME PREVENTION, INVESTIGATION AND COORDINATION PROGRAM",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100100001000",
+      "slug": "formulation-coordination-and-monitoring-of-cybercrime-plans-and-policies",
+      "fpap_code": "310100100001000",
+      "description": "Formulation, coordination, and monitoring of cybercrime plans and policies",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 10180.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 10550.0
+        },
+        "2022": {
+          "count": 27,
+          "amount": 207804.0
+        },
+        "2023": {
+          "count": 29,
+          "amount": 207804.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 347586.0
+        },
+        "2025": {
+          "count": 27,
+          "amount": 357484.0
+        },
+        "2026": {
+          "count": 26,
+          "amount": 444670.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200000000",
+      "slug": "locally-funded-projects",
+      "fpap_code": "310100200000000",
+      "description": "Locally-Funded Project(s)",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200001000",
+      "slug": "national-cybercrime-resilience-command-center",
+      "fpap_code": "310100200001000",
+      "description": "National Cybercrime Resilience Command Center",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 750000.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100_00000000",
+      "slug": "projects",
+      "fpap_code": "310100_00000000",
+      "description": "Project(s)",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    }
+  ]
+}

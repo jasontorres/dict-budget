@@ -1,0 +1,6854 @@
+{
+  "metadata": {
+    "title": "GAA Fund Subcategories (Department 37)",
+    "source": "General Appropriations Act",
+    "department_id": "37",
+    "total_items": 305
+  },
+  "data": [
+    {
+      "id": "37-001-100000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-100000000000000-nan",
+      "fpap_id": "37-001-100000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 61,
+          "amount": 592406.0
+        },
+        "2023": {
+          "count": 66,
+          "amount": 734408.0
+        },
+        "2024": {
+          "count": 40,
+          "amount": 522233.0
+        },
+        "2025": {
+          "count": 45,
+          "amount": 1100542.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 15841.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 21881.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 21159.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 22109.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 44,
+          "amount": 1189271.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 68,
+          "amount": 663386.0
+        },
+        "2021": {
+          "count": 61,
+          "amount": 592777.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 25259.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100001000-0100000",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 23069.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 15521.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 19,
+          "amount": 11261.0
+        },
+        "2023": {
+          "count": 19,
+          "amount": 16164.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 13671.0
+        },
+        "2025": {
+          "count": 19,
+          "amount": 12745.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 663.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1076.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1076.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 973.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 19,
+          "amount": 14946.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 24,
+          "amount": 7691.0
+        },
+        "2021": {
+          "count": 19,
+          "amount": 6501.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1190.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-100000100002000-0100000",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 577.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 212.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100003000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100003000-0100000",
+      "fpap_id": "37-001-100000100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 2641.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 14014.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 5391.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 6861.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100003000-0100000",
+      "fpap_id": "37-001-100000100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 19648.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100003000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-100000100003000-0100000",
+      "fpap_id": "37-001-100000100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 11330.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1837.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-200000000000000-nan",
+      "fpap_id": "37-001-200000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 18,
+          "amount": 12329.0
+        },
+        "2023": {
+          "count": 17,
+          "amount": 24635.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 23749.0
+        },
+        "2025": {
+          "count": 19,
+          "amount": 20634.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 829.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1121.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1449.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1143.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 25,
+          "amount": 24473.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 30,
+          "amount": 18323.0
+        },
+        "2021": {
+          "count": 17,
+          "amount": 16332.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1126.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100001000-0100000",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 185.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 294.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 27,
+          "amount": 61672.0
+        },
+        "2023": {
+          "count": 19,
+          "amount": 30489.0
+        },
+        "2024": {
+          "count": 18,
+          "amount": 22077.0
+        },
+        "2025": {
+          "count": 25,
+          "amount": 635409.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 563.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1186.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1196.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 982.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 24,
+          "amount": 67659.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 35,
+          "amount": 49738.0
+        },
+        "2021": {
+          "count": 28,
+          "amount": 69808.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1094.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-200000100002000-0100000",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 301.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 580.0
+        }
+      }
+    },
+    {
+      "id": "37-001-300000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-300000000000000-nan",
+      "fpap_id": "37-001-300000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310000000000000-nan",
+      "fpap_id": "37-001-310000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100000000000-nan",
+      "fpap_id": "37-001-310100000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100100001000-0100000",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 26,
+          "amount": 49415.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 30171.0
+        },
+        "2024": {
+          "count": 18,
+          "amount": 23511.0
+        },
+        "2025": {
+          "count": 22,
+          "amount": 27025.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310100100001000-0100000",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 708.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1756.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1987.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 2280.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100100001000-0100000",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 42,
+          "amount": 28666.0
+        },
+        "2021": {
+          "count": 22,
+          "amount": 27354.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310100100001000-0100000",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1153.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 861.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100100001000-nan",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100100002000-0100000",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 31,
+          "amount": 600969.0
+        },
+        "2023": {
+          "count": 24,
+          "amount": 280044.0
+        },
+        "2024": {
+          "count": 30,
+          "amount": 735580.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 1068771.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310100100002000-0100000",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1877.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 2656.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 2617.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 3319.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100100002000-0100000",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 50,
+          "amount": 1045029.0
+        },
+        "2021": {
+          "count": 31,
+          "amount": 940322.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310100100002000-0100000",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 7092.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1669.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100100002000-nan",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100100003000-0100000",
+      "fpap_id": "37-001-310100100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 27,
+          "amount": 56951.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100003000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310100100003000-0100000",
+      "fpap_id": "37-001-310100100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 2748.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100200000000-nan",
+      "fpap_id": "37-001-310100200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100200001000-0100000",
+      "fpap_id": "37-001-310100200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 6,
+          "amount": 70600.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 16873.0
+        },
+        "2025": {
+          "count": 10,
+          "amount": 34218.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310100200001000-0100000",
+      "fpap_id": "37-001-310100200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 62741.0
+        },
+        "2021": {
+          "count": 5,
+          "amount": 17618.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100200001000-nan",
+      "fpap_id": "37-001-310100200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310100_00000000-nan",
+      "fpap_id": "37-001-310100_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310200000000000-nan",
+      "fpap_id": "37-001-310200000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200100001000-0100000",
+      "fpap_id": "37-001-310200100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 40,
+          "amount": 1957128.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100001000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310200100001000-0100000",
+      "fpap_id": "37-001-310200100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 3781.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200100002000-0100000",
+      "fpap_id": "37-001-310200100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 34,
+          "amount": 1488066.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100002000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310200100002000-0100000",
+      "fpap_id": "37-001-310200100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 3259.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200100003000-0100000",
+      "fpap_id": "37-001-310200100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 40,
+          "amount": 502483.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100003000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310200100003000-0100000",
+      "fpap_id": "37-001-310200100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 4691.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310200200000000-nan",
+      "fpap_id": "37-001-310200200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200001000-0100000-10403392",
+      "slug": "free-public-internet-access-fund-fpiaf",
+      "fund_code": "10403392",
+      "description": "Free Public Internet Access Fund (FPIAF)",
+      "operating_unit_id": "37-001-310200200001000-0100000",
+      "fpap_id": "37-001-310200200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 17,
+          "amount": 5000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200200002000-0100000",
+      "fpap_id": "37-001-310200200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 19,
+          "amount": 747526.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200200003000-0100000",
+      "fpap_id": "37-001-310200200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 667474.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200004000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200200004000-0100000",
+      "fpap_id": "37-001-310200200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 16,
+          "amount": 291862.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200005000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200200005000-0100000",
+      "fpap_id": "37-001-310200200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 2,
+          "amount": 65000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310200300000000-nan",
+      "fpap_id": "37-001-310200300000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310200300001000-0100000",
+      "fpap_id": "37-001-310200300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 12,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300001000-0100000-10102151",
+      "slug": "gop-counterpart-funds",
+      "fund_code": "10102151",
+      "description": "GoP Counterpart Funds",
+      "operating_unit_id": "37-001-310200300001000-0100000",
+      "fpap_id": "37-001-310200300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 22500.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300001000-0100000-10102163",
+      "slug": "international-bank-for-reconstruction-and-development-ibrd",
+      "fund_code": "10102163",
+      "description": "International Bank for Reconstruction and Development (IBRD)",
+      "operating_unit_id": "37-001-310200300001000-0100000",
+      "fpap_id": "37-001-310200300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 11,
+          "amount": 3232623.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310200_00000000-nan",
+      "fpap_id": "37-001-310200_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201000000000-nan",
+      "fpap_id": "37-001-310201000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201100001000-0100000",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 25,
+          "amount": 291299.0
+        },
+        "2023": {
+          "count": 30,
+          "amount": 1208262.0
+        },
+        "2024": {
+          "count": 29,
+          "amount": 904171.0
+        },
+        "2025": {
+          "count": 35,
+          "amount": 1770847.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310201100001000-0100000",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1895.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 3172.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 3425.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 3419.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201100001000-0100000",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 57,
+          "amount": 427697.0
+        },
+        "2021": {
+          "count": 30,
+          "amount": 344074.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310201100001000-0100000",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 2682.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 910.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201100001000-nan",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200000000-nan",
+      "fpap_id": "37-001-310201200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200001000-0100000",
+      "fpap_id": "37-001-310201200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2023": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2024": {
+          "count": 25,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 19,
+          "amount": 550000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200001000-0100000",
+      "fpap_id": "37-001-310201200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 18,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200001000-0100000",
+      "fpap_id": "37-001-310201200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 22,
+          "amount": 345149.0
+        },
+        "2021": {
+          "count": 10,
+          "amount": 1670235.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-0100000-03104392",
+      "slug": "free-public-internet-access-fund-fpiaf",
+      "fund_code": "03104392",
+      "description": "Free Public Internet Access Fund (FPIAF)",
+      "operating_unit_id": "37-001-310201200002000-0100000",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 19,
+          "amount": 2500000.0
+        },
+        "2023": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2024": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 2449345.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200002000-0100000",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 50000.0
+        },
+        "2021": {
+          "count": 2,
+          "amount": 250000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-0100000-104392",
+      "slug": "free-public-internet-access-fund-fpiaf",
+      "fund_code": "104392",
+      "description": "Free Public Internet Access Fund (FPIAF)",
+      "operating_unit_id": "37-001-310201200002000-0100000",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 14,
+          "amount": 1134558.0
+        },
+        "2021": {
+          "count": 6,
+          "amount": 2417576.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200002000-nan",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200003000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200003000-0100000",
+      "fpap_id": "37-001-310201200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 26,
+          "amount": 1500000.0
+        },
+        "2023": {
+          "count": 24,
+          "amount": 1880000.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 29,
+          "amount": 750000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200003000-0100000",
+      "fpap_id": "37-001-310201200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200003000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200003000-0100000",
+      "fpap_id": "37-001-310201200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 28,
+          "amount": 296461.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 1858194.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200004000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200004000-0100000",
+      "fpap_id": "37-001-310201200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 18,
+          "amount": 317055.0
+        },
+        "2023": {
+          "count": 17,
+          "amount": 269076.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 302862.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 302862.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200004000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200004000-0100000",
+      "fpap_id": "37-001-310201200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 15,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200004000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200004000-0100000",
+      "fpap_id": "37-001-310201200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 25,
+          "amount": 431172.0
+        },
+        "2021": {
+          "count": 19,
+          "amount": 317055.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-0100000-03104392",
+      "slug": "free-public-internet-access-fund-fpiaf",
+      "fund_code": "03104392",
+      "description": "Free Public Internet Access Fund (FPIAF)",
+      "operating_unit_id": "37-001-310201200005000-0100000",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 50655.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200005000-0100000",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 50000.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 250000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-0100000-104392",
+      "slug": "free-public-internet-access-fund-fpiaf",
+      "fund_code": "104392",
+      "description": "Free Public Internet Access Fund (FPIAF)",
+      "operating_unit_id": "37-001-310201200005000-0100000",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 279895.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 307885.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200005000-nan",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200006000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200006000-0100000",
+      "fpap_id": "37-001-310201200006000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 109038.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200006000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200006000-nan",
+      "fpap_id": "37-001-310201200006000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200007000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200007000-0100000",
+      "fpap_id": "37-001-310201200007000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 71980.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200007000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200007000-nan",
+      "fpap_id": "37-001-310201200007000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200008000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200008000-0100000",
+      "fpap_id": "37-001-310201200008000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 5,
+          "amount": 160750.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200008000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200008000-nan",
+      "fpap_id": "37-001-310201200008000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200009000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200009000-0100000",
+      "fpap_id": "37-001-310201200009000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 1000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200009000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200009000-nan",
+      "fpap_id": "37-001-310201200009000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200010000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200010000-0100000",
+      "fpap_id": "37-001-310201200010000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 4,
+          "amount": 1000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200010000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200010000-nan",
+      "fpap_id": "37-001-310201200010000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200011000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200011000-0100000",
+      "fpap_id": "37-001-310201200011000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 500000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200011000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200011000-nan",
+      "fpap_id": "37-001-310201200011000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200012000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200012000-0100000",
+      "fpap_id": "37-001-310201200012000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 250000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200012000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200012000-nan",
+      "fpap_id": "37-001-310201200012000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200013000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200013000-0100000",
+      "fpap_id": "37-001-310201200013000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 202020.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200013000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200013000-nan",
+      "fpap_id": "37-001-310201200013000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200014000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200014000-0100000",
+      "fpap_id": "37-001-310201200014000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 35000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200014000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200014000-nan",
+      "fpap_id": "37-001-310201200014000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200015000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201200015000-0100000",
+      "fpap_id": "37-001-310201200015000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 50000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200015000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201200015000-nan",
+      "fpap_id": "37-001-310201200015000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201300000000-nan",
+      "fpap_id": "37-001-310201300000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310201300001000-0100000",
+      "fpap_id": "37-001-310201300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 11,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201300001000-nan",
+      "fpap_id": "37-001-310201300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310201_00000000-nan",
+      "fpap_id": "37-001-310201_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310202000000000-nan",
+      "fpap_id": "37-001-310202000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310202100001000-0100000",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 34,
+          "amount": 403410.0
+        },
+        "2023": {
+          "count": 29,
+          "amount": 235127.0
+        },
+        "2024": {
+          "count": 23,
+          "amount": 86460.0
+        },
+        "2025": {
+          "count": 38,
+          "amount": 243774.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310202100001000-0100000",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1936.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 3782.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 3555.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 4174.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310202100001000-0100000",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 48,
+          "amount": 335449.0
+        },
+        "2021": {
+          "count": 35,
+          "amount": 739643.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310202100001000-0100000",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 175.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 2178.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310202100001000-nan",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300000000000-nan",
+      "fpap_id": "37-001-310300000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100001000-0100000",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 25,
+          "amount": 339108.0
+        },
+        "2023": {
+          "count": 22,
+          "amount": 265045.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 208604.0
+        },
+        "2025": {
+          "count": 42,
+          "amount": 327170.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100001000-0100000",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 893.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1327.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1737.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1591.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100001000-0100000",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 35,
+          "amount": 1295113.0
+        },
+        "2021": {
+          "count": 23,
+          "amount": 788999.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100001000-0100000",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 322.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 731.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300100001000-nan",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100002000-0100000",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 29,
+          "amount": 557550.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 293122.0
+        },
+        "2024": {
+          "count": 32,
+          "amount": 727716.0
+        },
+        "2025": {
+          "count": 38,
+          "amount": 382701.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100002000-0100000",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 12160.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 13489.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 22812.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 22463.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100002000-0100000",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 43,
+          "amount": 615540.0
+        },
+        "2021": {
+          "count": 29,
+          "amount": 567111.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100002000-0100000",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1535.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 10605.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300100002000-nan",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100003000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100003000-0100000",
+      "fpap_id": "37-001-310300100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 42,
+          "amount": 679008.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100003000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100003000-0100000",
+      "fpap_id": "37-001-310300100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1798.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100004000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300100004000-0100000",
+      "fpap_id": "37-001-310300100004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 37,
+          "amount": 345053.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100004000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-001-310300100004000-0100000",
+      "fpap_id": "37-001-310300100004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 26095.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300200000000-nan",
+      "fpap_id": "37-001-310300200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-001-310300200001000-0100000",
+      "fpap_id": "37-001-310300200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 54762.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300200001000-nan",
+      "fpap_id": "37-001-310300200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-001-310300_00000000-nan",
+      "fpap_id": "37-001-310300_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-100000000000000-nan",
+      "fpap_id": "37-002-100000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 49,
+          "amount": 111941.0
+        },
+        "2023": {
+          "count": 49,
+          "amount": 117954.0
+        },
+        "2024": {
+          "count": 48,
+          "amount": 109173.0
+        },
+        "2025": {
+          "count": 49,
+          "amount": 143579.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 4481.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 4693.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 4691.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 5127.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 50,
+          "amount": 139214.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 63,
+          "amount": 169563.0
+        },
+        "2021": {
+          "count": 46,
+          "amount": 130934.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 5575.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-100000100001000-0100000",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 4191.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 4320.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100002000-0100000",
+      "fpap_id": "37-002-100000100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 2,
+          "amount": 3205.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 2289.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 8522.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 8906.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100002000-0100000",
+      "fpap_id": "37-002-100000100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 5189.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-100000100002000-0100000",
+      "fpap_id": "37-002-100000100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 14938.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 626.0
+        }
+      }
+    },
+    {
+      "id": "37-002-200000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-200000000000000-nan",
+      "fpap_id": "37-002-200000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-300000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-300000000000000-nan",
+      "fpap_id": "37-002-300000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310000000000000-nan",
+      "fpap_id": "37-002-310000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310100000000000-nan",
+      "fpap_id": "37-002-310100000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 35,
+          "amount": 43295.0
+        },
+        "2023": {
+          "count": 35,
+          "amount": 55318.0
+        },
+        "2024": {
+          "count": 24,
+          "amount": 96213.0
+        },
+        "2025": {
+          "count": 33,
+          "amount": 45108.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1804.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1812.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1577.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1787.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 43,
+          "amount": 140426.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 40,
+          "amount": 41455.0
+        },
+        "2021": {
+          "count": 33,
+          "amount": 111680.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1982.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0100000",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1806.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1848.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 42,
+          "amount": 12292.0
+        },
+        "2023": {
+          "count": 40,
+          "amount": 15336.0
+        },
+        "2024": {
+          "count": 46,
+          "amount": 43422.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 20008.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 722.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 855.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1046.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1071.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 42,
+          "amount": 21053.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 54,
+          "amount": 18892.0
+        },
+        "2021": {
+          "count": 43,
+          "amount": 14163.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1227.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300001",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 801.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 908.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 41,
+          "amount": 19592.0
+        },
+        "2023": {
+          "count": 40,
+          "amount": 17283.0
+        },
+        "2024": {
+          "count": 40,
+          "amount": 26698.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 20079.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1124.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1159.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1167.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1240.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 40373.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 54,
+          "amount": 20099.0
+        },
+        "2021": {
+          "count": 42,
+          "amount": 32279.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1482.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300002",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1056.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1087.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 46,
+          "amount": 21445.0
+        },
+        "2023": {
+          "count": 51,
+          "amount": 18093.0
+        },
+        "2024": {
+          "count": 55,
+          "amount": 36608.0
+        },
+        "2025": {
+          "count": 50,
+          "amount": 21446.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1143.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1194.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1242.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1286.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 49,
+          "amount": 31060.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 55,
+          "amount": 29707.0
+        },
+        "2021": {
+          "count": 45,
+          "amount": 42702.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1255.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300003",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1069.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1086.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 38,
+          "amount": 16551.0
+        },
+        "2023": {
+          "count": 40,
+          "amount": 19504.0
+        },
+        "2024": {
+          "count": 39,
+          "amount": 23524.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 22692.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1111.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1174.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1171.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1136.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 39,
+          "amount": 24777.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 51,
+          "amount": 26301.0
+        },
+        "2021": {
+          "count": 39,
+          "amount": 17075.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1316.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300004",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1392.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1120.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 40,
+          "amount": 18261.0
+        },
+        "2023": {
+          "count": 39,
+          "amount": 16886.0
+        },
+        "2024": {
+          "count": 42,
+          "amount": 69328.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 18827.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1049.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1110.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1239.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1109.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 40,
+          "amount": 20927.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 56,
+          "amount": 16106.0
+        },
+        "2021": {
+          "count": 39,
+          "amount": 17996.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1152.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300005",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 980.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1204.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 48,
+          "amount": 22980.0
+        },
+        "2023": {
+          "count": 43,
+          "amount": 17595.0
+        },
+        "2024": {
+          "count": 45,
+          "amount": 46960.0
+        },
+        "2025": {
+          "count": 42,
+          "amount": 17355.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1063.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 996.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 876.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 923.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 21279.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 62,
+          "amount": 34618.0
+        },
+        "2021": {
+          "count": 49,
+          "amount": 16364.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1290.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300006",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1124.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 999.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 45,
+          "amount": 23591.0
+        },
+        "2023": {
+          "count": 44,
+          "amount": 18007.0
+        },
+        "2024": {
+          "count": 43,
+          "amount": 16778.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 18197.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1105.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 982.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 934.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1049.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 45,
+          "amount": 31381.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 57,
+          "amount": 21778.0
+        },
+        "2021": {
+          "count": 44,
+          "amount": 18343.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1264.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300007",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1167.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1275.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 43,
+          "amount": 16580.0
+        },
+        "2023": {
+          "count": 40,
+          "amount": 17651.0
+        },
+        "2024": {
+          "count": 40,
+          "amount": 18363.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 17862.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 963.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1062.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1063.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1006.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 18906.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 54,
+          "amount": 28601.0
+        },
+        "2021": {
+          "count": 40,
+          "amount": 13329.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1116.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300008",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1010.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 829.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 39,
+          "amount": 21845.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 50870.0
+        },
+        "2024": {
+          "count": 38,
+          "amount": 33422.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 17549.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1140.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1224.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1008.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 926.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 37,
+          "amount": 19965.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 57,
+          "amount": 19895.0
+        },
+        "2021": {
+          "count": 42,
+          "amount": 53503.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1150.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300009",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 866.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1055.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 52,
+          "amount": 19743.0
+        },
+        "2023": {
+          "count": 50,
+          "amount": 34847.0
+        },
+        "2024": {
+          "count": 48,
+          "amount": 29224.0
+        },
+        "2025": {
+          "count": 47,
+          "amount": 25102.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 946.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1057.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1224.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1104.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 47,
+          "amount": 31121.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 62,
+          "amount": 18540.0
+        },
+        "2021": {
+          "count": 50,
+          "amount": 20683.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1370.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300010",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1003.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 807.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 42,
+          "amount": 22226.0
+        },
+        "2023": {
+          "count": 36,
+          "amount": 13622.0
+        },
+        "2024": {
+          "count": 37,
+          "amount": 46130.0
+        },
+        "2025": {
+          "count": 37,
+          "amount": 18328.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 932.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 840.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 818.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 816.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 36,
+          "amount": 17746.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 59,
+          "amount": 26838.0
+        },
+        "2021": {
+          "count": 42,
+          "amount": 26868.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1093.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300011",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 860.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 687.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 38,
+          "amount": 14602.0
+        },
+        "2023": {
+          "count": 36,
+          "amount": 14473.0
+        },
+        "2024": {
+          "count": 40,
+          "amount": 42612.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 16130.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 740.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 951.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 644.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 823.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 40,
+          "amount": 23881.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 54,
+          "amount": 18200.0
+        },
+        "2021": {
+          "count": 37,
+          "amount": 47694.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1000.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300012",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 733.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 758.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 40,
+          "amount": 29950.0
+        },
+        "2023": {
+          "count": 36,
+          "amount": 24990.0
+        },
+        "2024": {
+          "count": 38,
+          "amount": 21856.0
+        },
+        "2025": {
+          "count": 37,
+          "amount": 25382.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1217.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1070.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 885.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 830.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 38,
+          "amount": 34180.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 53,
+          "amount": 31523.0
+        },
+        "2021": {
+          "count": 37,
+          "amount": 23923.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1117.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300013",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1093.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1096.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 47,
+          "amount": 23828.0
+        },
+        "2023": {
+          "count": 41,
+          "amount": 22352.0
+        },
+        "2024": {
+          "count": 43,
+          "amount": 28064.0
+        },
+        "2025": {
+          "count": 47,
+          "amount": 22895.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1101.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 1309.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 1264.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1088.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 49,
+          "amount": 25792.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 60,
+          "amount": 21706.0
+        },
+        "2021": {
+          "count": 47,
+          "amount": 24360.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1357.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300014",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 959.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1085.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 40,
+          "amount": 19065.0
+        },
+        "2023": {
+          "count": 36,
+          "amount": 15703.0
+        },
+        "2024": {
+          "count": 37,
+          "amount": 18875.0
+        },
+        "2025": {
+          "count": 36,
+          "amount": 18902.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 865.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 832.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 846.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 1099.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 39,
+          "amount": 22348.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 61,
+          "amount": 24187.0
+        },
+        "2021": {
+          "count": 43,
+          "amount": 12654.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 1266.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300016",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 499.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 759.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 41,
+          "amount": 21922.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 13132.0
+        },
+        "2024": {
+          "count": 38,
+          "amount": 13874.0
+        },
+        "2025": {
+          "count": 38,
+          "amount": 15375.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 628.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 660.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 635.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 757.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 17772.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 27,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 35,
+          "amount": 14247.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 742.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100001000-0300017",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2021": {
+          "count": 1,
+          "amount": 186.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 32,
+          "amount": 33383.0
+        },
+        "2023": {
+          "count": 24,
+          "amount": 29360.0
+        },
+        "2024": {
+          "count": 20,
+          "amount": 24154.0
+        },
+        "2025": {
+          "count": 24,
+          "amount": 39308.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 2377.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 2330.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 2060.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 2118.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 27,
+          "amount": 39064.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 34,
+          "amount": 32831.0
+        },
+        "2021": {
+          "count": 29,
+          "amount": 32547.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 2137.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-002-310100100002000-0100000",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 2093.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 2299.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0300009-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100100002000-0300009",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310100200000000-nan",
+      "fpap_id": "37-002-310100200000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200001000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100200001000-0100000",
+      "fpap_id": "37-002-310100200001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 2800000.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310100200001000-nan",
+      "fpap_id": "37-002-310100200001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200002000-0100000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-002-310100200002000-0100000",
+      "fpap_id": "37-002-310100200002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 475000.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200002000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310100200002000-nan",
+      "fpap_id": "37-002-310100200002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-002-310100_00000000-nan",
+      "fpap_id": "37-002-310100_00000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-003-100000000000000-nan",
+      "fpap_id": "37-003-100000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 41,
+          "amount": 114411.0
+        },
+        "2023": {
+          "count": 51,
+          "amount": 111983.0
+        },
+        "2024": {
+          "count": 51,
+          "amount": 176926.0
+        },
+        "2025": {
+          "count": 49,
+          "amount": 170706.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 4609.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 4259.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 5540.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 5346.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 49,
+          "amount": 195213.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 51,
+          "amount": 104474.0
+        },
+        "2021": {
+          "count": 45,
+          "amount": 102243.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 6395.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-100000100001000-0000000",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 3144.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 3202.0
+        }
+      }
+    },
+    {
+      "id": "37-003-200000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-003-200000000000000-nan",
+      "fpap_id": "37-003-200000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-300000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-003-300000000000000-nan",
+      "fpap_id": "37-003-300000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-003-310000000000000-nan",
+      "fpap_id": "37-003-310000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-003-310100000000000-nan",
+      "fpap_id": "37-003-310100000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 33,
+          "amount": 105826.0
+        },
+        "2023": {
+          "count": 32,
+          "amount": 108196.0
+        },
+        "2024": {
+          "count": 34,
+          "amount": 260652.0
+        },
+        "2025": {
+          "count": 33,
+          "amount": 191805.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 3710.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 3737.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 4380.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 3928.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 32,
+          "amount": 233653.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 38,
+          "amount": 125122.0
+        },
+        "2021": {
+          "count": 37,
+          "amount": 106340.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 5275.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000-104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-003-310100100001000-0000000",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 1948.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 3347.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-100000000000000-nan",
+      "fpap_id": "37-004-100000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-100000100001000-0000000",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 42,
+          "amount": 157639.0
+        },
+        "2023": {
+          "count": 49,
+          "amount": 139958.0
+        },
+        "2024": {
+          "count": 52,
+          "amount": 122253.0
+        },
+        "2025": {
+          "count": 36,
+          "amount": 201962.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000-01104102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "01104102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-004-100000100001000-0000000",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 1091.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 5359.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 4927.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 4963.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-100000100001000-0000000",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 35,
+          "amount": 128733.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-100000100001000-0000000",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 1081.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1120.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000-10401102",
+      "slug": "retirement-and-life-insurance-premiums",
+      "fund_code": "10401102",
+      "description": "Retirement and Life Insurance Premiums",
+      "operating_unit_id": "37-004-100000100001000-0000000",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 5305.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100002000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-100000100002000-0000000",
+      "fpap_id": "37-004-100000100002000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 210.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100002000-0000000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-100000100002000-0000000",
+      "fpap_id": "37-004-100000100002000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 376.0
+        }
+      }
+    },
+    {
+      "id": "37-004-200000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-200000000000000-nan",
+      "fpap_id": "37-004-200000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-300000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-300000000000000-nan",
+      "fpap_id": "37-004-300000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310000000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-310000000000000-nan",
+      "fpap_id": "37-004-310000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100000000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-310100000000000-nan",
+      "fpap_id": "37-004-310100000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100100001000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-310100100001000-0000000",
+      "fpap_id": "37-004-310100100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 27,
+          "amount": 207804.0
+        },
+        "2023": {
+          "count": 29,
+          "amount": 207804.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 347586.0
+        },
+        "2025": {
+          "count": 27,
+          "amount": 357484.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100100001000-0000000-10101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "10101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-310100100001000-0000000",
+      "fpap_id": "37-004-310100100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 26,
+          "amount": 444670.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100100001000-0000000-101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-310100100001000-0000000",
+      "fpap_id": "37-004-310100100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 10180.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 10550.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-310100200000000-nan",
+      "fpap_id": "37-004-310100200000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200001000-0000000-01101101",
+      "slug": "specific-budgets-of-national-government-agencies",
+      "fund_code": "01101101",
+      "description": "Specific Budgets of National Government Agencies",
+      "operating_unit_id": "37-004-310100200001000-0000000",
+      "fpap_id": "37-004-310100200001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 750000.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200001000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-310100200001000-nan",
+      "fpap_id": "37-004-310100200001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100_00000000-nan-nan",
+      "slug": "nan",
+      "fund_code": "nan",
+      "description": "nan",
+      "operating_unit_id": "37-004-310100_00000000-nan",
+      "fpap_id": "37-004-310100_00000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    }
+  ]
+}

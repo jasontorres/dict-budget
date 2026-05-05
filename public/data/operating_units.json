@@ -1,0 +1,3738 @@
+{
+  "metadata": {
+    "title": "GAA Operating Units (Department 37)",
+    "source": "General Appropriations Act",
+    "department_id": "37",
+    "total_items": 132
+  },
+  "data": [
+    {
+      "id": "37-001-100000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-100000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-100000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 69,
+          "amount": 686455.0
+        },
+        "2021": {
+          "count": 62,
+          "amount": 608298.0
+        },
+        "2022": {
+          "count": 62,
+          "amount": 608247.0
+        },
+        "2023": {
+          "count": 67,
+          "amount": 756289.0
+        },
+        "2024": {
+          "count": 41,
+          "amount": 543392.0
+        },
+        "2025": {
+          "count": 46,
+          "amount": 1122651.0
+        },
+        "2026": {
+          "count": 45,
+          "amount": 1214530.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-100000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 25,
+          "amount": 8268.0
+        },
+        "2021": {
+          "count": 20,
+          "amount": 6713.0
+        },
+        "2022": {
+          "count": 20,
+          "amount": 11924.0
+        },
+        "2023": {
+          "count": 20,
+          "amount": 17240.0
+        },
+        "2024": {
+          "count": 20,
+          "amount": 14747.0
+        },
+        "2025": {
+          "count": 20,
+          "amount": 13718.0
+        },
+        "2026": {
+          "count": 20,
+          "amount": 16136.0
+        }
+      }
+    },
+    {
+      "id": "37-001-100000100003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-100000100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 11330.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1837.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 2641.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 14014.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 5391.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 6861.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 19648.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-200000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-200000100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 31,
+          "amount": 18508.0
+        },
+        "2021": {
+          "count": 18,
+          "amount": 16626.0
+        },
+        "2022": {
+          "count": 19,
+          "amount": 13158.0
+        },
+        "2023": {
+          "count": 18,
+          "amount": 25756.0
+        },
+        "2024": {
+          "count": 20,
+          "amount": 25198.0
+        },
+        "2025": {
+          "count": 20,
+          "amount": 21777.0
+        },
+        "2026": {
+          "count": 26,
+          "amount": 25599.0
+        }
+      }
+    },
+    {
+      "id": "37-001-200000100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-200000100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 36,
+          "amount": 50039.0
+        },
+        "2021": {
+          "count": 29,
+          "amount": 70388.0
+        },
+        "2022": {
+          "count": 28,
+          "amount": 62235.0
+        },
+        "2023": {
+          "count": 20,
+          "amount": 31675.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 23273.0
+        },
+        "2025": {
+          "count": 26,
+          "amount": 636391.0
+        },
+        "2026": {
+          "count": 25,
+          "amount": 68753.0
+        }
+      }
+    },
+    {
+      "id": "37-001-300000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-300000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310000000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 43,
+          "amount": 29819.0
+        },
+        "2021": {
+          "count": 23,
+          "amount": 28215.0
+        },
+        "2022": {
+          "count": 27,
+          "amount": 50123.0
+        },
+        "2023": {
+          "count": 26,
+          "amount": 31927.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 25498.0
+        },
+        "2025": {
+          "count": 23,
+          "amount": 29305.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 51,
+          "amount": 1052121.0
+        },
+        "2021": {
+          "count": 32,
+          "amount": 941991.0
+        },
+        "2022": {
+          "count": 32,
+          "amount": 602846.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 282700.0
+        },
+        "2024": {
+          "count": 31,
+          "amount": 738197.0
+        },
+        "2025": {
+          "count": 44,
+          "amount": 1072090.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100002000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100100003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310100100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 59699.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310100200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 62741.0
+        },
+        "2021": {
+          "count": 5,
+          "amount": 17618.0
+        },
+        "2022": {
+          "count": 6,
+          "amount": 70600.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 16873.0
+        },
+        "2025": {
+          "count": 10,
+          "amount": 34218.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100200001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310100_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310100_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310200000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 1960909.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 35,
+          "amount": 1491325.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200100003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 41,
+          "amount": 507174.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310200200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 17,
+          "amount": 5000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 19,
+          "amount": 747526.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 28,
+          "amount": 667474.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200004000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 16,
+          "amount": 291862.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200200005000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 2,
+          "amount": 65000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310200300000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200300001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310200300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 24,
+          "amount": 3255123.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310200_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310200_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 58,
+          "amount": 430379.0
+        },
+        "2021": {
+          "count": 31,
+          "amount": 344984.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 293194.0
+        },
+        "2023": {
+          "count": 31,
+          "amount": 1211434.0
+        },
+        "2024": {
+          "count": 30,
+          "amount": 907596.0
+        },
+        "2025": {
+          "count": 36,
+          "amount": 1774266.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201100001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 22,
+          "amount": 345149.0
+        },
+        "2021": {
+          "count": 10,
+          "amount": 1670235.0
+        },
+        "2022": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2023": {
+          "count": 16,
+          "amount": 1670235.0
+        },
+        "2024": {
+          "count": 25,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 19,
+          "amount": 550000.0
+        },
+        "2026": {
+          "count": 18,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 16,
+          "amount": 1184558.0
+        },
+        "2021": {
+          "count": 8,
+          "amount": 2667576.0
+        },
+        "2022": {
+          "count": 19,
+          "amount": 2500000.0
+        },
+        "2023": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2024": {
+          "count": 14,
+          "amount": 2449345.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 2449345.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200002000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 28,
+          "amount": 296461.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 1858194.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 1500000.0
+        },
+        "2023": {
+          "count": 24,
+          "amount": 1880000.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 750000.0
+        },
+        "2025": {
+          "count": 29,
+          "amount": 750000.0
+        },
+        "2026": {
+          "count": 28,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200004000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 25,
+          "amount": 431172.0
+        },
+        "2021": {
+          "count": 19,
+          "amount": 317055.0
+        },
+        "2022": {
+          "count": 18,
+          "amount": 317055.0
+        },
+        "2023": {
+          "count": 17,
+          "amount": 269076.0
+        },
+        "2024": {
+          "count": 19,
+          "amount": 302862.0
+        },
+        "2025": {
+          "count": 17,
+          "amount": 302862.0
+        },
+        "2026": {
+          "count": 15,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 329895.0
+        },
+        "2021": {
+          "count": 2,
+          "amount": 557885.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 50655.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 50655.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200005000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200005000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200006000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200006000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 109038.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200006000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200006000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200007000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200007000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 2,
+          "amount": 71980.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200007000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200007000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200008000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200008000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 5,
+          "amount": 160750.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200008000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200008000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200009000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200009000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 1000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200009000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200009000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200010000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200010000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 4,
+          "amount": 1000000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200010000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200010000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200011000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200011000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 500000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200011000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200011000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200012000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200012000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 250000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200012000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200012000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200013000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200013000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 202020.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200013000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200013000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200014000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200014000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 35000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200014000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200014000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200015000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201200015000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 2,
+          "amount": 50000.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201200015000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201200015000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201300000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310201300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 11,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201300001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201300001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310201_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310201_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310202000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 49,
+          "amount": 335624.0
+        },
+        "2021": {
+          "count": 36,
+          "amount": 741821.0
+        },
+        "2022": {
+          "count": 35,
+          "amount": 405346.0
+        },
+        "2023": {
+          "count": 30,
+          "amount": 238909.0
+        },
+        "2024": {
+          "count": 24,
+          "amount": 90015.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 247948.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310202100001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310202100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300000000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 36,
+          "amount": 1295435.0
+        },
+        "2021": {
+          "count": 24,
+          "amount": 789730.0
+        },
+        "2022": {
+          "count": 26,
+          "amount": 340001.0
+        },
+        "2023": {
+          "count": 23,
+          "amount": 266372.0
+        },
+        "2024": {
+          "count": 28,
+          "amount": 210341.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 328761.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300100001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 44,
+          "amount": 617075.0
+        },
+        "2021": {
+          "count": 30,
+          "amount": 577716.0
+        },
+        "2022": {
+          "count": 30,
+          "amount": 569710.0
+        },
+        "2023": {
+          "count": 26,
+          "amount": 306611.0
+        },
+        "2024": {
+          "count": 33,
+          "amount": 750528.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 405164.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100002000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300100002000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100003000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310300100003000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 43,
+          "amount": 680806.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300100004000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310300100004000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 38,
+          "amount": 371148.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300200000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-001-310300200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 54762.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300200001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300200001000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-001-310300_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-001-310300_00000000",
+      "agency_id": "37-001",
+      "department_id": "37",
+      "years": {
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-100000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-100000100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 64,
+          "amount": 173754.0
+        },
+        "2021": {
+          "count": 47,
+          "amount": 135254.0
+        },
+        "2022": {
+          "count": 50,
+          "amount": 116422.0
+        },
+        "2023": {
+          "count": 50,
+          "amount": 122647.0
+        },
+        "2024": {
+          "count": 49,
+          "amount": 113864.0
+        },
+        "2025": {
+          "count": 50,
+          "amount": 148706.0
+        },
+        "2026": {
+          "count": 51,
+          "amount": 144789.0
+        }
+      }
+    },
+    {
+      "id": "37-002-100000100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-100000100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 14938.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 626.0
+        },
+        "2022": {
+          "count": 2,
+          "amount": 3205.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 2289.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 8522.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 8906.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 5189.0
+        }
+      }
+    },
+    {
+      "id": "37-002-200000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-200000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-300000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-300000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310000000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310100000000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 41,
+          "amount": 43261.0
+        },
+        "2021": {
+          "count": 34,
+          "amount": 113528.0
+        },
+        "2022": {
+          "count": 36,
+          "amount": 45099.0
+        },
+        "2023": {
+          "count": 36,
+          "amount": 57130.0
+        },
+        "2024": {
+          "count": 25,
+          "amount": 97790.0
+        },
+        "2025": {
+          "count": 34,
+          "amount": 46895.0
+        },
+        "2026": {
+          "count": 44,
+          "amount": 142408.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300001",
+      "slug": "regional-office-i",
+      "operunit_code": "0300001",
+      "description": "Regional Office - I",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 55,
+          "amount": 19693.0
+        },
+        "2021": {
+          "count": 44,
+          "amount": 15071.0
+        },
+        "2022": {
+          "count": 43,
+          "amount": 13014.0
+        },
+        "2023": {
+          "count": 41,
+          "amount": 16191.0
+        },
+        "2024": {
+          "count": 47,
+          "amount": 44468.0
+        },
+        "2025": {
+          "count": 44,
+          "amount": 21079.0
+        },
+        "2026": {
+          "count": 43,
+          "amount": 22280.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300002",
+      "slug": "regional-office-ii",
+      "operunit_code": "0300002",
+      "description": "Regional Office - II",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 55,
+          "amount": 21155.0
+        },
+        "2021": {
+          "count": 43,
+          "amount": 33366.0
+        },
+        "2022": {
+          "count": 42,
+          "amount": 20716.0
+        },
+        "2023": {
+          "count": 41,
+          "amount": 18442.0
+        },
+        "2024": {
+          "count": 41,
+          "amount": 27865.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 21319.0
+        },
+        "2026": {
+          "count": 42,
+          "amount": 41855.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300003",
+      "slug": "regional-office-iii",
+      "operunit_code": "0300003",
+      "description": "Regional Office - III",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 56,
+          "amount": 30776.0
+        },
+        "2021": {
+          "count": 46,
+          "amount": 43788.0
+        },
+        "2022": {
+          "count": 47,
+          "amount": 22588.0
+        },
+        "2023": {
+          "count": 52,
+          "amount": 19287.0
+        },
+        "2024": {
+          "count": 56,
+          "amount": 37850.0
+        },
+        "2025": {
+          "count": 51,
+          "amount": 22732.0
+        },
+        "2026": {
+          "count": 50,
+          "amount": 32315.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300004",
+      "slug": "regional-office-iva",
+      "operunit_code": "0300004",
+      "description": "Regional Office - IVA",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 52,
+          "amount": 27693.0
+        },
+        "2021": {
+          "count": 40,
+          "amount": 18195.0
+        },
+        "2022": {
+          "count": 39,
+          "amount": 17662.0
+        },
+        "2023": {
+          "count": 41,
+          "amount": 20678.0
+        },
+        "2024": {
+          "count": 40,
+          "amount": 24695.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 23828.0
+        },
+        "2026": {
+          "count": 40,
+          "amount": 26093.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300005",
+      "slug": "regional-office-v",
+      "operunit_code": "0300005",
+      "description": "Regional Office - V",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 57,
+          "amount": 17086.0
+        },
+        "2021": {
+          "count": 40,
+          "amount": 19200.0
+        },
+        "2022": {
+          "count": 41,
+          "amount": 19310.0
+        },
+        "2023": {
+          "count": 40,
+          "amount": 17996.0
+        },
+        "2024": {
+          "count": 43,
+          "amount": 70567.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 19936.0
+        },
+        "2026": {
+          "count": 41,
+          "amount": 22079.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300006",
+      "slug": "regional-office-vi",
+      "operunit_code": "0300006",
+      "description": "Regional Office - VI",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 63,
+          "amount": 35742.0
+        },
+        "2021": {
+          "count": 50,
+          "amount": 17363.0
+        },
+        "2022": {
+          "count": 49,
+          "amount": 24043.0
+        },
+        "2023": {
+          "count": 44,
+          "amount": 18591.0
+        },
+        "2024": {
+          "count": 46,
+          "amount": 47836.0
+        },
+        "2025": {
+          "count": 43,
+          "amount": 18278.0
+        },
+        "2026": {
+          "count": 42,
+          "amount": 22569.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300007",
+      "slug": "regional-office-vii",
+      "operunit_code": "0300007",
+      "description": "Regional Office - VII",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 58,
+          "amount": 22945.0
+        },
+        "2021": {
+          "count": 45,
+          "amount": 19618.0
+        },
+        "2022": {
+          "count": 46,
+          "amount": 24696.0
+        },
+        "2023": {
+          "count": 45,
+          "amount": 18989.0
+        },
+        "2024": {
+          "count": 44,
+          "amount": 17712.0
+        },
+        "2025": {
+          "count": 44,
+          "amount": 19246.0
+        },
+        "2026": {
+          "count": 46,
+          "amount": 32645.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300008",
+      "slug": "regional-office-viii",
+      "operunit_code": "0300008",
+      "description": "Regional Office - VIII",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 55,
+          "amount": 29611.0
+        },
+        "2021": {
+          "count": 41,
+          "amount": 14158.0
+        },
+        "2022": {
+          "count": 44,
+          "amount": 17543.0
+        },
+        "2023": {
+          "count": 41,
+          "amount": 18713.0
+        },
+        "2024": {
+          "count": 41,
+          "amount": 19426.0
+        },
+        "2025": {
+          "count": 41,
+          "amount": 18868.0
+        },
+        "2026": {
+          "count": 42,
+          "amount": 20022.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300009",
+      "slug": "regional-office-ix",
+      "operunit_code": "0300009",
+      "description": "Regional Office - IX",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 58,
+          "amount": 20761.0
+        },
+        "2021": {
+          "count": 43,
+          "amount": 54558.0
+        },
+        "2022": {
+          "count": 40,
+          "amount": 22985.0
+        },
+        "2023": {
+          "count": 38,
+          "amount": 52094.0
+        },
+        "2024": {
+          "count": 39,
+          "amount": 34430.0
+        },
+        "2025": {
+          "count": 41,
+          "amount": 18475.0
+        },
+        "2026": {
+          "count": 38,
+          "amount": 21115.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300010",
+      "slug": "regional-office-x",
+      "operunit_code": "0300010",
+      "description": "Regional Office - X",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 63,
+          "amount": 19543.0
+        },
+        "2021": {
+          "count": 51,
+          "amount": 21490.0
+        },
+        "2022": {
+          "count": 53,
+          "amount": 20689.0
+        },
+        "2023": {
+          "count": 51,
+          "amount": 35904.0
+        },
+        "2024": {
+          "count": 49,
+          "amount": 30448.0
+        },
+        "2025": {
+          "count": 48,
+          "amount": 26206.0
+        },
+        "2026": {
+          "count": 48,
+          "amount": 32491.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300011",
+      "slug": "regional-office-xi",
+      "operunit_code": "0300011",
+      "description": "Regional Office - XI",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 60,
+          "amount": 27698.0
+        },
+        "2021": {
+          "count": 43,
+          "amount": 27555.0
+        },
+        "2022": {
+          "count": 43,
+          "amount": 23158.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 14462.0
+        },
+        "2024": {
+          "count": 38,
+          "amount": 46948.0
+        },
+        "2025": {
+          "count": 38,
+          "amount": 19144.0
+        },
+        "2026": {
+          "count": 37,
+          "amount": 18839.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300012",
+      "slug": "regional-office-xii",
+      "operunit_code": "0300012",
+      "description": "Regional Office - XII",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 55,
+          "amount": 18933.0
+        },
+        "2021": {
+          "count": 38,
+          "amount": 48452.0
+        },
+        "2022": {
+          "count": 39,
+          "amount": 15342.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 15424.0
+        },
+        "2024": {
+          "count": 41,
+          "amount": 43256.0
+        },
+        "2025": {
+          "count": 40,
+          "amount": 16953.0
+        },
+        "2026": {
+          "count": 41,
+          "amount": 24881.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300013",
+      "slug": "regional-office-ncr",
+      "operunit_code": "0300013",
+      "description": "Regional Office - NCR",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 54,
+          "amount": 32616.0
+        },
+        "2021": {
+          "count": 38,
+          "amount": 25019.0
+        },
+        "2022": {
+          "count": 41,
+          "amount": 31167.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 26060.0
+        },
+        "2024": {
+          "count": 39,
+          "amount": 22741.0
+        },
+        "2025": {
+          "count": 38,
+          "amount": 26212.0
+        },
+        "2026": {
+          "count": 39,
+          "amount": 35297.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300014",
+      "slug": "regional-office-car",
+      "operunit_code": "0300014",
+      "description": "Regional Office - CAR",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 61,
+          "amount": 22665.0
+        },
+        "2021": {
+          "count": 48,
+          "amount": 25445.0
+        },
+        "2022": {
+          "count": 48,
+          "amount": 24929.0
+        },
+        "2023": {
+          "count": 42,
+          "amount": 23661.0
+        },
+        "2024": {
+          "count": 44,
+          "amount": 29328.0
+        },
+        "2025": {
+          "count": 48,
+          "amount": 23983.0
+        },
+        "2026": {
+          "count": 50,
+          "amount": 27149.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300016",
+      "slug": "regional-office-xiii",
+      "operunit_code": "0300016",
+      "description": "Regional Office - XIII",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 62,
+          "amount": 24686.0
+        },
+        "2021": {
+          "count": 44,
+          "amount": 13413.0
+        },
+        "2022": {
+          "count": 41,
+          "amount": 19930.0
+        },
+        "2023": {
+          "count": 37,
+          "amount": 16535.0
+        },
+        "2024": {
+          "count": 38,
+          "amount": 19721.0
+        },
+        "2025": {
+          "count": 37,
+          "amount": 20001.0
+        },
+        "2026": {
+          "count": 40,
+          "amount": 23614.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100001000-0300017",
+      "slug": "regional-office-ivb",
+      "operunit_code": "0300017",
+      "description": "Regional Office - IVB",
+      "fpap_id": "37-002-310100100001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 27,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 36,
+          "amount": 14433.0
+        },
+        "2022": {
+          "count": 42,
+          "amount": 22550.0
+        },
+        "2023": {
+          "count": 38,
+          "amount": 13792.0
+        },
+        "2024": {
+          "count": 39,
+          "amount": 14509.0
+        },
+        "2025": {
+          "count": 39,
+          "amount": 16132.0
+        },
+        "2026": {
+          "count": 42,
+          "amount": 18514.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 35,
+          "amount": 34924.0
+        },
+        "2021": {
+          "count": 30,
+          "amount": 34846.0
+        },
+        "2022": {
+          "count": 33,
+          "amount": 35760.0
+        },
+        "2023": {
+          "count": 25,
+          "amount": 31690.0
+        },
+        "2024": {
+          "count": 21,
+          "amount": 26214.0
+        },
+        "2025": {
+          "count": 25,
+          "amount": 41426.0
+        },
+        "2026": {
+          "count": 28,
+          "amount": 41201.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100100002000-0300009",
+      "slug": "regional-office-ix",
+      "operunit_code": "0300009",
+      "description": "Regional Office - IX",
+      "fpap_id": "37-002-310100100002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310100200000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200001000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-310100200001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 2800000.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310100200001000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200002000-0100000",
+      "slug": "central-office",
+      "operunit_code": "0100000",
+      "description": "Central Office",
+      "fpap_id": "37-002-310100200002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 475000.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100200002000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310100200002000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-002-310100_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-002-310100_00000000",
+      "agency_id": "37-002",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-003-100000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-100000100001000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-003-100000100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 52,
+          "amount": 107618.0
+        },
+        "2021": {
+          "count": 46,
+          "amount": 105445.0
+        },
+        "2022": {
+          "count": 42,
+          "amount": 119020.0
+        },
+        "2023": {
+          "count": 52,
+          "amount": 116242.0
+        },
+        "2024": {
+          "count": 52,
+          "amount": 182466.0
+        },
+        "2025": {
+          "count": 50,
+          "amount": 176052.0
+        },
+        "2026": {
+          "count": 50,
+          "amount": 201608.0
+        }
+      }
+    },
+    {
+      "id": "37-003-200000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-003-200000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-300000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-003-300000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-003-310000000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-003-310100000000000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-003-310100100001000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-003-310100100001000",
+      "agency_id": "37-003",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 39,
+          "amount": 127070.0
+        },
+        "2021": {
+          "count": 38,
+          "amount": 109687.0
+        },
+        "2022": {
+          "count": 34,
+          "amount": 109536.0
+        },
+        "2023": {
+          "count": 33,
+          "amount": 111933.0
+        },
+        "2024": {
+          "count": 35,
+          "amount": 265032.0
+        },
+        "2025": {
+          "count": 34,
+          "amount": 195733.0
+        },
+        "2026": {
+          "count": 33,
+          "amount": 238928.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-100000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100001000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-004-100000100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 2,
+          "amount": 1081.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 1120.0
+        },
+        "2022": {
+          "count": 43,
+          "amount": 158730.0
+        },
+        "2023": {
+          "count": 50,
+          "amount": 145317.0
+        },
+        "2024": {
+          "count": 53,
+          "amount": 127180.0
+        },
+        "2025": {
+          "count": 37,
+          "amount": 206925.0
+        },
+        "2026": {
+          "count": 36,
+          "amount": 134038.0
+        }
+      }
+    },
+    {
+      "id": "37-004-100000100002000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-004-100000100002000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 210.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 376.0
+        }
+      }
+    },
+    {
+      "id": "37-004-200000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-200000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-300000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-300000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310000000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-310000000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100000000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-310100000000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2021": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2022": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2023": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2024": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100100001000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-004-310100100001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2020": {
+          "count": 13,
+          "amount": 10180.0
+        },
+        "2021": {
+          "count": 13,
+          "amount": 10550.0
+        },
+        "2022": {
+          "count": 27,
+          "amount": 207804.0
+        },
+        "2023": {
+          "count": 29,
+          "amount": 207804.0
+        },
+        "2024": {
+          "count": 27,
+          "amount": 347586.0
+        },
+        "2025": {
+          "count": 27,
+          "amount": 357484.0
+        },
+        "2026": {
+          "count": 26,
+          "amount": 444670.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-310100200000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200001000-0000000",
+      "slug": "nan",
+      "operunit_code": "0000000",
+      "description": "nan",
+      "fpap_id": "37-004-310100200001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 750000.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100200001000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-310100200001000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    },
+    {
+      "id": "37-004-310100_00000000-nan",
+      "slug": "nan",
+      "operunit_code": "nan",
+      "description": "nan",
+      "fpap_id": "37-004-310100_00000000",
+      "agency_id": "37-004",
+      "department_id": "37",
+      "years": {
+        "2025": {
+          "count": 1,
+          "amount": 0.0
+        },
+        "2026": {
+          "count": 1,
+          "amount": 0.0
+        }
+      }
+    }
+  ]
+}

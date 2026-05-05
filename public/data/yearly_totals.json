@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "GAA Yearly Totals (Department 37)",
+    "source": "General Appropriations Act",
+    "department_id": "37",
+    "total_items": 7
+  },
+  "data": [
+    {
+      "year": 2020,
+      "count": 1720,
+      "amount": 11344458.0
+    },
+    {
+      "year": 2021,
+      "count": 1288,
+      "amount": 12139062.0
+    },
+    {
+      "year": 2022,
+      "count": 1389,
+      "amount": 10203868.0
+    },
+    {
+      "year": 2023,
+      "count": 1337,
+      "amount": 10879889.0
+    },
+    {
+      "year": 2024,
+      "count": 1343,
+      "amount": 9515115.0
+    },
+    {
+      "year": 2025,
+      "count": 1416,
+      "amount": 15097761.0
+    },
+    {
+      "year": 2026,
+      "count": 1533,
+      "amount": 18217677.0
+    }
+  ]
+}
