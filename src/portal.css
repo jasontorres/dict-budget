@@ -29,21 +29,23 @@
   --ec-co:   #2d3e4f;   /* capital  — slate */
   --ec-fe:   #6b6452;   /* financial — neutral ink */
 
-  /* Editorial type system — matches the two long-form pieces */
+  /* Editorial type system — sans-driven UI, serif reserved for narrative accents */
   --font-display: "Fraunces", "GT Sectra", Georgia, serif;
-  --font-hero:    "Fraunces", "GT Sectra", Georgia, serif;
-  --font-body:    "Source Serif 4", "Charter", Georgia, serif;
-  --font-mono:    "JetBrains Mono", ui-monospace, monospace;
+  --font-serif:   "Fraunces", "GT Sectra", Georgia, serif;
+  --font-hero:    "Manrope", "Plus Jakarta Sans", "Inter Tight", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Inter Tight", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --font-head:    var(--font-mono);
   --serif: var(--font-display);
   --sans:  var(--font-body);
   --mono:  var(--font-mono);
-  --geo:   var(--font-display);
+  --geo:   var(--font-hero);
 }
 
 html, body {
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 14.5px;
+  line-height: 1.5;
   background: var(--paper);
 }
 
@@ -60,19 +62,83 @@ html, body {
   font-weight: 600;
   vertical-align: 6px;
 }
+.masthead-inner {
+  display: block !important;
+  gap: 0 !important;
+  padding: 18px 32px 0 !important;
+}
+.masthead-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  padding-bottom: 10px;
+}
+.masthead-nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--rule-soft);
+  padding: 12px 0 14px;
+}
+.masthead-nav-row .view-tabs {
+  border-top: none !important;
+  padding-top: 0 !important;
+  gap: 26px !important;
+}
+.masthead-cross {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.masthead-cross .cross-link {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  font-weight: 600;
+}
+.masthead-cross .cross-link:hover {
+  background: transparent !important;
+  color: var(--accent) !important;
+}
+.masthead-cross .arrow {
+  color: var(--accent);
+  margin-left: 4px;
+}
+
 .masthead-title {
-  font-family: var(--font-display) !important;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 44px !important;
-  letter-spacing: -0.025em;
-  line-height: 1;
+  font-family: var(--font-hero) !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 38px !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1 !important;
+  color: var(--ink) !important;
+  margin: 0 0 16px !important;
+  padding: 0 !important;
 }
 .masthead-title .kicker {
   font-style: normal;
   font-family: var(--font-mono);
   font-weight: 500;
   color: var(--accent);
+}
+.masthead-title .dict-mark-inline {
+  color: var(--accent);
+  font-family: inherit;
+  font-weight: inherit;
 }
 
 /* ---------- KPI strip ---------- */
@@ -98,12 +164,13 @@ html, body {
   margin: 0 0 8px;
 }
 .kpi-value {
-  font-family: var(--font-display);
-  font-weight: 400;
+  font-family: var(--font-hero);
+  font-weight: 700;
   font-size: 30px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   line-height: 1;
   margin: 0;
+  font-variant-numeric: tabular-nums;
 }
 .kpi-sub {
   font-family: var(--font-mono);
@@ -128,10 +195,10 @@ html, body {
   margin-bottom: 10px;
 }
 .trend-title h2 {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 22px;
+  font-family: var(--font-hero);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   letter-spacing: -0.015em;
   margin: 0;
 }
@@ -300,12 +367,7 @@ html, body {
 /* ---------- View nav ---------- */
 .view-tabs {
   display: flex;
-  gap: 28px;
-  font-family: var(--font-hero);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  gap: 26px;
   border-top: 1px solid var(--rule-soft);
   padding-top: 14px;
 }
@@ -313,18 +375,20 @@ html, body {
   background: none;
   border: none;
   padding: 6px 0;
-  font: inherit;
-  color: var(--ink-3);
-  border-bottom: 3px solid transparent;
-  margin-bottom: -3px;
-  letter-spacing: inherit;
-  text-transform: inherit;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  color: var(--ink-3) !important;
+  border-bottom: 2px solid transparent !important;
   cursor: pointer;
+  transition: color .12s, border-color .12s;
 }
-.view-tabs button:hover { color: var(--ink); }
+.view-tabs button:hover { color: var(--ink) !important; }
 .view-tabs button.active {
-  color: var(--ink);
-  border-bottom-color: var(--accent);
+  color: var(--ink) !important;
+  border-bottom-color: var(--accent) !important;
 }
 
 /* ---------- Treemap ---------- */
