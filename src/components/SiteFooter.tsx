@@ -14,6 +14,28 @@ export default function SiteFooter() {
           with human oversight. The dataset and its interpretations may contain errors, mis-classifications,
           or stale figures — always verify against the official GAA before citing.
         </p>
+        <ul className="sf-links">
+          <li>
+            <span className="sf-links-label">Data source</span>
+            <a
+              href="https://www.dbm.gov.ph/index.php/budget"
+              target="_blank"
+              rel="noopener"
+            >
+              Department of Budget and Management ↗
+            </a>
+          </li>
+          <li>
+            <span className="sf-links-label">Full dataset</span>
+            <a
+              href="https://data.bettergov.ph"
+              target="_blank"
+              rel="noopener"
+            >
+              BetterGov’s Open Data Portal · data.bettergov.ph ↗
+            </a>
+          </li>
+        </ul>
         <p className="sf-credit">
           Site by <a href="https://about.bettergov.ph" target="_blank" rel="noopener">BetterGov</a>
         </p>
