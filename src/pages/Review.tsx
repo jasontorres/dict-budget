@@ -202,6 +202,75 @@ const PAGE_STYLES = `
     transition: background .12s, color .12s;
   }
   .review-page .coda .cross-link:hover { background: var(--ink); color: var(--paper); }
+
+  /* ---------- Responsive (≤ 720px) ---------- */
+  @media (max-width: 720px) {
+    .review-page .stat-row {
+      grid-template-columns: 1fr;
+      margin-top: 32px;
+    }
+    .review-page .stat-row > div {
+      padding: 16px 0;
+      border-right: none;
+      border-bottom: 1px solid currentColor;
+    }
+    .review-page .stat-row > div:last-child { border-bottom: none; }
+    .review-page .stat-row .num { font-size: clamp(34px, 9vw, 56px); }
+
+    .review-page .bureau-bars {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      margin-top: 24px;
+    }
+    .review-page .bureau-bars .bn { font-size: 14px; margin-top: 14px; }
+    .review-page .bureau-bars .bn:first-child { margin-top: 0; }
+    .review-page .bureau-bars .br { height: 10px; }
+    .review-page .bureau-bars .bv {
+      text-align: left;
+      font-size: 12px;
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .review-page .bureau-bars .bv .delta { display: inline; margin-top: 0; }
+
+    .review-page .pcards {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .review-page .pcard {
+      padding: 18px 20px 16px;
+    }
+    .review-page .pcard .name {
+      font-size: 22px;
+    }
+
+    .review-page .reading {
+      padding: 20px 22px;
+      margin-top: 28px;
+    }
+
+    .review-page .megastat {
+      font-size: clamp(72px, 22vw, 180px);
+    }
+
+    .review-page .epigraph {
+      font-size: clamp(24px, 7vw, 36px);
+      max-width: 100%;
+    }
+
+    .review-page .scene-inner {
+      padding: 70px 18px;
+    }
+  }
+
+  @media (max-width: 720px) and (orientation: portrait) {
+    .review-page .stat-row > div { padding: 14px 0; }
+  }
 `;
 
 export default function Review() {

@@ -168,7 +168,9 @@ body {
 .bg-leaf { background: var(--leaf-deep); color: var(--paper); }
 .bg-rose { background: var(--accent-deep); color: var(--paper); }
 .bg-accent { background: var(--accent); color: var(--paper); }
-.bg-gold { background: var(--paper); color: var(--ink); }   /* gold scenes -> cream */
+/* Future-only override: remap gold scenes to cream paper. Scoped so
+   Review's section 10 (bg-gold) keeps its dark-brown background. */
+.future-page .bg-gold { background: var(--paper); color: var(--ink); }
 
 /* Color treatments on dark backgrounds */
 .bg-ink .h-1, .bg-ink .h-2, .bg-ink .h-display, .bg-ink .h-sans-huge, .bg-ink .giant-num,

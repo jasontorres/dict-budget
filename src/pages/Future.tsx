@@ -139,6 +139,60 @@ const PAGE_STYLES = `
     transition: background .12s, color .12s;
   }
   .future-page .coda .cross-link:hover { background: var(--ink); color: var(--paper); }
+
+  /* ---------- Responsive (≤ 720px) ---------- */
+  @media (max-width: 720px) {
+    /* Strip (4-up stat block) — used in scenes 2, 7, 8, 9.
+       Collapse to a 2x2 grid so figures stay legible. */
+    .future-page .strip {
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 32px;
+    }
+    .future-page .strip > div {
+      padding: 14px 16px;
+      border-right: 1px solid currentColor;
+      border-bottom: 1px solid currentColor;
+    }
+    .future-page .strip > div:nth-child(2n) { border-right: none; }
+    .future-page .strip > div:nth-last-child(-n+2) { border-bottom: none; }
+    .future-page .strip .v {
+      font-size: clamp(28px, 8vw, 44px);
+    }
+    .future-page .strip .l {
+      font-size: 9.5px;
+    }
+
+    /* Promises (3-col card grid in scene 5) — stack to a single column. */
+    .future-page .promises {
+      grid-template-columns: 1fr;
+      margin-top: 32px;
+    }
+    .future-page .promise {
+      border-right: none;
+      border-bottom: 1px solid currentColor;
+      padding: 24px 22px 22px;
+    }
+    .future-page .promises > article:last-child,
+    .future-page .promises > a:last-child { border-bottom: none; }
+    .future-page .promise h3 {
+      font-size: clamp(24px, 6vw, 32px);
+    }
+
+    .future-page .big-num {
+      font-size: clamp(80px, 26vw, 200px);
+    }
+    .future-page .pull {
+      font-size: clamp(24px, 6vw, 36px);
+      max-width: 100%;
+    }
+    .future-page .reach-grid {
+      grid-template-columns: repeat(12, 1fr);
+      gap: 3px;
+    }
+    .future-page .scene-inner {
+      padding: 70px 18px;
+    }
+  }
 `;
 
 function useReachGrid() {
