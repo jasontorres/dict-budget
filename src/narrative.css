@@ -2,6 +2,35 @@
    Inside the DepEd Budget — scrollytelling narrative
    ============================================================= */
 
+/* ---------- Peso glyph fallback ----------
+   The Philippine peso sign (U+20B1) renders inconsistently across
+   the display fonts we use — Fraunces draws it as a swooping italic
+   serif, which clashes with mono numerals next to it. Map U+20B1 to
+   a non-italic, non-serif system font with a unicode-range @font-face,
+   then prepend "PesoFix" to every --font-* stack so the substitution
+   kicks in everywhere a peso sign appears.
+   ============================================================= */
+@font-face {
+  font-family: "PesoFix";
+  src: local("Helvetica Neue"), local("Helvetica"), local("Arial"),
+       local("Segoe UI"), local("Liberation Sans"), local("DejaVu Sans"),
+       local("Verdana");
+  unicode-range: U+20B1;
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PesoFix";
+  src: local("Helvetica Neue"), local("Helvetica"), local("Arial"),
+       local("Segoe UI"), local("Liberation Sans"), local("DejaVu Sans"),
+       local("Verdana");
+  unicode-range: U+20B1;
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --paper: #f7f5f0;
   --paper-warm: #efece4;
@@ -27,10 +56,10 @@
   --stage-6: #5e3f1c;
   --stage-7: #2e1f0e;
 
-  --font-display: "Fraunces", "Playfair Display", "GT Sectra", Georgia, serif;
-  --font-hero: "Manrope", "Plus Jakarta Sans", -apple-system, sans-serif;
-  --font-body: "Inter Tight", -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-display: "PesoFix", "Fraunces", "Playfair Display", "GT Sectra", Georgia, serif;
+  --font-hero: "PesoFix", "Manrope", "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-body: "PesoFix", "Inter Tight", -apple-system, sans-serif;
+  --font-mono: "PesoFix", "JetBrains Mono", ui-monospace, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -393,9 +422,12 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Specific scene helpers ---------- */
 .peso {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 300;
+  font-family: "PesoFix", "Helvetica Neue", "Arial", "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: "tnum";
+  letter-spacing: -0.02em;
+  margin-right: 0.04em;
 }
 
 .giant-num {

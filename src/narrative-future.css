@@ -37,13 +37,15 @@
   --stage-6: #2d3e4f;
   --stage-7: #1a2935;
 
-  /* Typography overrides */
-  --font-display: "Antonio", "Bebas Neue", "Oswald", "Impact", sans-serif;
-  --font-hero: "Antonio", "Bebas Neue", "Oswald", sans-serif;
-  --font-serif: "Source Serif 4", "Source Serif Pro", "Charter", Georgia, serif;
-  --font-body: "Source Serif 4", "Charter", Georgia, serif;
-  --font-ui: "Inter Tight", -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  /* Typography overrides — "PesoFix" prepended so U+20B1 (peso glyph)
+     never falls into the italic Source Serif. The unicode-range
+     @font-face is declared in narrative.css. */
+  --font-display: "PesoFix", "Antonio", "Bebas Neue", "Oswald", "Impact", sans-serif;
+  --font-hero: "PesoFix", "Antonio", "Bebas Neue", "Oswald", sans-serif;
+  --font-serif: "PesoFix", "Source Serif 4", "Source Serif Pro", "Charter", Georgia, serif;
+  --font-body: "PesoFix", "Source Serif 4", "Charter", Georgia, serif;
+  --font-ui: "PesoFix", "Inter Tight", -apple-system, sans-serif;
+  --font-mono: "PesoFix", "JetBrains Mono", ui-monospace, monospace;
 }
 
 body {
