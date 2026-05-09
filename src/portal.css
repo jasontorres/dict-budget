@@ -1406,3 +1406,10 @@ html, body {
   .raw-table-wrap { max-height: 60vh; }
   .raw-table th, .raw-table td { padding: 6px 8px; font-size: 11px; }
 }
+
+/* On mobile, only the homepage (Overview) shows the KPI strip;
+   By year / Programs / Objects / Data hide it to keep the viewport
+   focused on the year strip + main content. */
+@media (max-width: 720px) {
+  .kpi-strip.kpi-strip-hide-mobile { display: none !important; }
+}

@@ -87,7 +87,7 @@ function maxAcrossYears(records: BaseEntity[]): number {
 }
 
 /* ---------- KPI strip ---------- */
-function KpiStrip({ data }: { data: DictData }) {
+function KpiStrip({ data, hideOnMobile }: { data: DictData; hideOnMobile?: boolean }) {
   const totalNow = data.total(2026);
   const totalPrev = data.total(2020);
   const growth = delta(totalNow, totalPrev);
@@ -96,7 +96,7 @@ function KpiStrip({ data }: { data: DictData }) {
   const peakYear = YEARS.find((y) => data.total(y) === peak);
 
   return (
-    <div className="kpi-strip">
+    <div className={`kpi-strip ${hideOnMobile ? 'kpi-strip-hide-mobile' : ''}`}>
       <div className="kpi-cell">
         <p className="kpi-label">FY 2026 Appropriation</p>
         <p className="kpi-value">{fmt.php(totalNow, { unit: 'B' })}</p>
@@ -1836,7 +1836,9 @@ export default function Portal() {
       </aside>
 
       <main style={{ maxWidth: 1440, margin: '0 auto', padding: '32px 32px 80px' }}>
-        {view !== 'methodology' && view !== 'data' && <KpiStrip data={data} />}
+        {view !== 'methodology' && view !== 'data' && (
+          <KpiStrip data={data} hideOnMobile={view !== 'hierarchy'} />
+        )}
         {view === 'hierarchy' && <TrendChart data={data} />}
 
         {view === 'hierarchy' && <HierarchyView data={data} year={year} setYear={setYear} />}
